@@ -1,0 +1,66 @@
+name: Actualizar datos RENAPER
+
+# Corre el 5 de cada mes + manualmente desde la pestaña Actions.
+# Descarga los CSV oficiales de RENAPER (datos.gob.ar) y regenera
+# src/data/renaper/*.json. Si cambiaron los datos: abre un PR con el diff.
+# Merge manual → deploy manual con wrangler (push ≠ deploy).
+
+on:
+  schedule:
+    - cron: "0 11 5 * *" # día 5 de cada mes, 11:00 UTC (08:00 Argentina)
+  workflow_dispatch: {} # botón manual
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Descargar y regenerar datos RENAPER
+        run: node scripts/fetch-renaper.mjs
+
+      - name: ¿Cambiaron los datos?
+        id: check
+        run: |
+          if git diff --quiet src/data/; then
+            echo "cambios=no" >> $GITHUB_OUTPUT
+            echo "Sin cambios en los datos: terminando."
+          else
+            echo "cambios=si" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Abrir PR con la actualización
+        if: steps.check.outputs.cambios == 'si'
+        run: |
+          BRANCH="renaper-update-$(date +%Y%m%d)"
+          git config user.name "nombresar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add src/data/
+          git commit -m "Datos RENAPER actualizados automáticamente
+
+          Fuente: https://datosabiertos.renaper.gob.ar/
+          Revisar el diff antes de hacer merge."
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "📊 RENAPER actualizó los datos — revisar y merge" \
+            --body "El fetcher automático descargó los CSV oficiales de RENAPER y regeneró \`src/data/renaper/\`.
+
+          **Qué hacer:**
+          1. Revisar el diff de \`src/data/\`
+          2. Verificar contra la fuente oficial: https://datosabiertos.renaper.gob.ar/
+          3. Si es correcto → Merge
+
+          ⚠️ El deploy NO sale solo: hay que desplegar con wrangler y verificar el SHA (push ≠ deploy)." \
+            --head "$BRANCH" \
+            --base main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
