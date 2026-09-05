@@ -16,6 +16,7 @@ import {
   significados,
   tasaPorMil,
   tendencia,
+  tieneFicha,
   topProvincias,
 } from "@/lib/datos";
 import { SITE_URL } from "@/lib/site";
@@ -69,7 +70,8 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   const pos = posicion(n, ANIO_ACTUAL);
   const rec = record(n);
   const provs = topProvincias(n, 3);
-  const hermanos = hermanitos(n, 3);
+  // Solo hermanitos con ficha propia (los demás no tienen página: zero-404s de flota)
+  const hermanos = hermanitos(n, 3).filter((h) => tieneFicha(h.nombre));
   const serieAnual = serie(n);
   const primerAnio = serieAnual.find((s) => s.cantidad > 0)?.anio;
 

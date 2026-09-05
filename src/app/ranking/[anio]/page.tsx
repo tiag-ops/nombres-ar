@@ -9,6 +9,7 @@ import {
   miles,
   sexoDe,
   tasaPorMil,
+  tieneFicha,
 } from "@/lib/datos";
 
 export const dynamicParams = false;
@@ -106,9 +107,13 @@ export default async function Page({ params }: { params: Promise<{ anio: string 
                 <tr key={n.nombre}>
                   <td className="font-display font-bold text-[#C2410C] dark:text-[#FDBA74]">{i + 1}</td>
                   <td>
-                    <Link href={`/nombre/${n.nombre.toLowerCase()}/`} className="font-semibold hover:text-[#0F766E] dark:hover:text-[#5EEAD4]">
-                      {displayName(n.nombre)}
-                    </Link>
+                    {tieneFicha(n.nombre) ? (
+                      <Link href={`/nombre/${n.nombre.toLowerCase()}/`} className="font-semibold hover:text-[#0F766E] dark:hover:text-[#5EEAD4]">
+                        {displayName(n.nombre)}
+                      </Link>
+                    ) : (
+                      <span className="font-semibold text-[#6B6558] dark:text-[#9BA89F]">{displayName(n.nombre)}</span>
+                    )}
                   </td>
                   <td className="text-right font-semibold">{miles(cant)}</td>
                   <td className="hidden text-right text-[#6B6558] sm:table-cell dark:text-[#9BA89F]">

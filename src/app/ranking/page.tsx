@@ -7,6 +7,7 @@ import {
   miles,
   rankAnio,
   sexoDe,
+  tieneFicha,
 } from "@/lib/datos";
 import { SITE_URL } from "@/lib/site";
 
@@ -60,9 +61,13 @@ export default function Page() {
             return (
               <li key={n.nombre} className="flex items-baseline gap-3 rounded-lg px-2 py-1.5 hover:bg-[#F0EADA] dark:hover:bg-[#16241E]">
                 <span className="w-6 text-right font-display text-sm font-bold text-[#C2410C] dark:text-[#FDBA74]">{i + 1}</span>
-                <Link href={`/nombre/${n.nombre.toLowerCase()}/`} className="font-semibold hover:text-[#0F766E] dark:hover:text-[#5EEAD4]">
-                  {displayName(n.nombre)}
-                </Link>
+                {tieneFicha(n.nombre) ? (
+                  <Link href={`/nombre/${n.nombre.toLowerCase()}/`} className="font-semibold hover:text-[#0F766E] dark:hover:text-[#5EEAD4]">
+                    {displayName(n.nombre)}
+                  </Link>
+                ) : (
+                  <span className="font-semibold text-[#6B6558] dark:text-[#9BA89F]">{displayName(n.nombre)}</span>
+                )}
                 <span
                   className={`inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${
                     sexo === "M"

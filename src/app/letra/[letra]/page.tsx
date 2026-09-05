@@ -6,8 +6,8 @@ import {
   dataset,
   displayName,
   miles,
-  nombrePorSlug,
   sexoDe,
+  tieneFicha,
 } from "@/lib/datos";
 
 const LETRAS = ["a", "b", "c", "d", "e"] as const;
@@ -43,7 +43,7 @@ export default async function Page({ params }: { params: Promise<{ letra: string
     .sort((a, b) => b.total - a.total)
     .slice(0, 40);
   const max = nombres[0]?.total ?? 1;
-  const conFicha = (n: string) => Boolean(nombrePorSlug(n.toLowerCase()));
+  const conFicha = tieneFicha;
 
   return (
     <section>

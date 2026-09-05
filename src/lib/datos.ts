@@ -214,3 +214,9 @@ export const FICHAS = dataset.nombres
   .slice(0, 24)
   .map((n) => n.nombre)
   .filter((n) => significados[n]);
+
+/** ¿Este nombre tiene ficha generada? (los demás NO tienen página: zero-404s de flota) */
+const FICHAS_SLUGS = new Set(FICHAS.map((n) => n.toLowerCase()));
+export function tieneFicha(nombre: string): boolean {
+  return FICHAS_SLUGS.has(nombre.toLowerCase());
+}
