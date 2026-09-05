@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import ThemeToggle from "./theme-toggle";
 
@@ -12,9 +13,17 @@ const LINKS = [
   { href: "/quienes-somos/", label: "Quiénes somos" },
 ];
 
-/** Navegación desktop + drawer hamburguesa mobile (regla flota aplicada). */
+/**
+ * Navegación desktop + drawer hamburguesa mobile (regla flota aplicada).
+ * El drawer y el overlay se renderizan POR PORTAL al <body>: el <header>
+ * sticky tiene backdrop-blur, que crea un containing block para los
+ * position:fixed descendientes y los achicaría a la altura del header.
+ */
 export default function Nav() {
   const [abierto, setAbierto] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => setMounted(true), []);
 
   useEffect(() => {
     if (!abierto) return;
@@ -27,30 +36,8 @@ export default function Nav() {
     };
   }, [abierto]);
 
-  return (
+  const drawer = (
     <>
-      {/* Desktop */}
-      <nav className="hidden gap-4 text-sm md:flex" aria-label="Principal">
-        {LINKS.map((l) => (
-          <Link key={l.href} href={l.href} className="transition-colors hover:text-[#0F766E] dark:hover:text-[#5EEAD4]">
-            {l.label}
-          </Link>
-        ))}
-      </nav>
-
-      {/* Botón hamburguesa */}
-      <button
-        type="button"
-        aria-label="Abrir menú"
-        aria-expanded={abierto}
-        onClick={() => setAbierto(true)}
-        className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#D6CDB8] transition-colors hover:border-[#0F766E] md:hidden dark:border-[#2E3D35] dark:hover:border-[#5EEAD4]"
-      >
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
-          <path d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
-
       {/* Overlay */}
       {abierto && (
         <div
@@ -101,6 +88,35 @@ export default function Nav() {
           </div>
         </div>
       </div>
+    </>
+  );
+
+  return (
+    <>
+      {/* Desktop */}
+      <nav className="hidden gap-4 text-sm md:flex" aria-label="Principal">
+        {LINKS.map((l) => (
+          <Link key={l.href} href={l.href} className="transition-colors hover:text-[#0F766E] dark:hover:text-[#5EEAD4]">
+            {l.label}
+          </Link>
+        ))}
+      </nav>
+
+      {/* Botón hamburguesa */}
+      <button
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded={abierto}
+        onClick={() => setAbierto(true)}
+        className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#D6CDB8] transition-colors hover:border-[#0F766E] md:hidden dark:border-[#2E3D35] dark:hover:border-[#5EEAD4]"
+      >
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+          <path d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      {/* Overlay + drawer: al body via portal (escapar del containing block del header backdrop-blur) */}
+      {mounted && createPortal(drawer, document.body)}
     </>
   );
 }
