@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     images: [`${SITE_URL}/og.png`],
   },
   verification: {
-    google: "PENDIENTE_GSC",
+    google: "i7sK2VBotuv8SZLp2OhuSL7t3P4xekIhKxsHTPv82L4",
   },
 };
 
