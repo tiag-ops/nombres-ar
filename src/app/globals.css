@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/* Modo claro/oscuro por clase en <html> (controlado por el toggle + script anti-flash) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+html {
+  /* Base 18px (default 16): escala todo el sitio vía rem — legibilidad +12.5% */
+  font-size: 112.5%;
+}
+
+body {
+  @apply bg-[#FDF9F2] text-[#2D2A26] antialiased dark:bg-[#0C1512] dark:text-[#EDE9E0];
+}
+
+/* Tipografía display: Source Serif 4 (clon de "álbum de nacimiento") */
+.font-display {
+  font-family: var(--font-serif), Georgia, "Times New Roman", serif;
+}
+
+.card {
+  @apply rounded-2xl border border-[#E4DCCB] bg-white p-5 shadow-sm dark:border-[#23312B] dark:bg-[#101B16];
+}
+
+.card-hover {
+  @apply transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md;
+}
+
+/* Focus visible para teclado (WCAG 2.4.7) en links y botones */
+a:focus-visible,
+button:focus-visible,
+select:focus-visible {
+  @apply outline-none ring-2 ring-[#0F766E]/60 ring-offset-2 ring-offset-[#FDF9F2] dark:ring-[#5EEAD4]/60 dark:ring-offset-[#0C1512];
+}
+
+.btn {
+  @apply inline-block rounded-xl bg-[#0F766E] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#115E59] dark:bg-[#14B8A6] dark:text-[#04211D];
+}
+
+.btn-ghost {
+  @apply inline-block rounded-xl border border-[#D6CDB8] px-5 py-2.5 text-sm font-semibold text-[#2D2A26] transition-colors hover:border-[#0F766E] hover:text-[#0F766E] dark:border-[#2E3D35] dark:text-[#EDE9E0] dark:hover:border-[#5EEAD4] dark:hover:text-[#5EEAD4];
+}
+
+/* Tablas de ranking */
+.rank-table {
+  @apply w-full text-left text-sm;
+}
+.rank-table th {
+  @apply border-b border-[#E4DCCB] px-3 py-2.5 text-xs font-semibold uppercase tracking-wide text-[#6B6558] dark:border-[#23312B] dark:text-[#9BA89F];
+}
+.rank-table td {
+  @apply border-b border-[#F0EADA] px-3 py-2.5 dark:border-[#1A2620];
+}
+.rank-table tr:last-child td {
+  @apply border-b-0;
+}
