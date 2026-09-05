@@ -54,8 +54,19 @@ export async function generateMetadata({
     description: `${disp} es el ${pos ? `${pos}º nombre más elegido` : "nombre"} de Argentina según RENAPER ${ANIO_ACTUAL} (tasa de ${tasa.toLocaleString("es-AR", { maximumFractionDigits: 2 })}‰). Su significado, evolución 2012–${ANIO_ACTUAL} y top de provincias.`,
     alternates: { canonical: `/nombre/${slug}/` },
     openGraph: {
+      type: "website",
+      locale: "es_AR",
+      siteName: "NombresAR",
+      url: `${SITE_URL}/nombre/${slug}/`,
       title: `${disp} — significado y datos oficiales`,
       description: `Evolución oficial ${ANIO_ACTUAL}, ranking nacional y significado del nombre ${disp}.`,
+      images: [{ url: `${SITE_URL}/og.png`, width: 1200, height: 630, alt: `Nombre ${disp} — NombresAR` }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${disp} — significado y datos oficiales`,
+      description: `Evolución oficial ${ANIO_ACTUAL}, ranking nacional y significado del nombre ${disp}.`,
+      images: [`${SITE_URL}/og.png`],
     },
   };
 }
