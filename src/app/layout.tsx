@@ -33,6 +33,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_AR",
     siteName: SITE_NOMBRE,
+    images: [{ url: `${SITE_URL}/og.png`, width: 1200, height: 630, alt: "NombresAR — nombres de bebé en Argentina con datos oficiales RENAPER" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NombresAR — Nombres de bebé en Argentina con datos oficiales",
+    description:
+      "Rankings oficiales de nombres de bebé en Argentina (RENAPER 2012–2024): tendencia año a año, tasa cada 1.000 nacimientos y significado de cada nombre.",
+    images: [`${SITE_URL}/og.png`],
   },
   verification: {
     google: "PENDIENTE_GSC",

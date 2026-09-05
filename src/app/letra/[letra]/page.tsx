@@ -5,18 +5,17 @@ import {
   ANIO_ACTUAL,
   dataset,
   displayName,
+  letraDe,
+  LETRAS_CON_FICHA,
   miles,
   sexoDe,
   tieneFicha,
 } from "@/lib/datos";
 
-const LETRAS = ["a", "b", "c", "d", "e"] as const;
-type Letra = (typeof LETRAS)[number];
-
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return LETRAS.map((l) => ({ letra: l }));
+  return LETRAS_CON_FICHA.map((l) => ({ letra: l }));
 }
 
 export async function generateMetadata({
@@ -25,7 +24,7 @@ export async function generateMetadata({
   params: Promise<{ letra: string }>;
 }): Promise<Metadata> {
   const { letra } = await params;
-  if (!(LETRAS as readonly string[]).includes(letra)) return {};
+  if (!LETRAS_CON_FICHA.includes(letra)) return {};
   return {
     title: `Nombres de bebé con ${letra.toUpperCase()} en Argentina`,
     description: `Los nombres más registrados que empiezan con ${letra.toUpperCase()} en Argentina (RENAPER 2012–${ANIO_ACTUAL}): cantidad de inscripciones, tendencia y fichas con significado.`,
@@ -35,11 +34,11 @@ export async function generateMetadata({
 
 export default async function Page({ params }: { params: Promise<{ letra: string }> }) {
   const { letra } = await params;
-  if (!(LETRAS as readonly string[]).includes(letra)) notFound();
+  if (!LETRAS_CON_FICHA.includes(letra)) notFound();
   const L = letra.toUpperCase();
 
   const nombres = dataset.nombres
-    .filter((n) => n.nombre.startsWith(L))
+    .filter((n) => letraDe(n.nombre) === letra)
     .sort((a, b) => b.total - a.total)
     .slice(0, 40);
   const max = nombres[0]?.total ?? 1;

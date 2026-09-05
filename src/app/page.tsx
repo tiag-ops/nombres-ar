@@ -3,6 +3,7 @@ import {
   ANIO_ACTUAL,
   ANIOS,
   FICHAS,
+  LETRAS_CON_FICHA,
   displayName,
   miles,
   sexoDe,
@@ -118,19 +119,20 @@ export default function Home() {
         <h2 id="letras" className="font-display mb-4 text-2xl font-bold">
           Explorar por letra
         </h2>
-        <div className="grid grid-cols-5 gap-2 sm:gap-3" style={{ maxWidth: 420 }}>
-          {["A", "B", "C", "D", "E"].map((l) => (
+        <div className="grid grid-cols-6 gap-2 sm:gap-3" style={{ maxWidth: 520 }}>
+          {LETRAS_CON_FICHA.map((l) => (
             <Link
               key={l}
-              href={`/letra/${l.toLowerCase()}/`}
+              href={`/letra/${l}/`}
               className="font-display card card-hover text-center text-2xl font-bold text-[#0F766E] dark:text-[#5EEAD4]"
             >
-              {l}
+              {l.toUpperCase()}
             </Link>
           ))}
         </div>
         <p className="mt-3 text-sm text-[#6B6558] dark:text-[#9BA89F]">
-          Por ahora cubrimos las letras A–E con los nombres más registrados; el resto llega en las próximas etapas.
+          Cada letra se habilita cuando sus fichas tienen significado curado: la lista crece sola a
+          medida que se publican los nombres.
         </p>
       </section>
 

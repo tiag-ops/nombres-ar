@@ -3,11 +3,15 @@ import {
   ANIOS,
   ANIO_ACTUAL,
   FICHAS,
+  LETRAS_CON_FICHA,
+  LETRAS_DISPONIBLES,
   RANK_ANIO_CACHE,
   dataset,
   deltaPct,
   displayName,
+  faqsDe,
   hermanitos,
+  letraDe,
   nombrePorSlug,
   posicion,
   record,
@@ -146,6 +150,54 @@ describe("display y slugs", () => {
 
   it("tildes.json cubre 185 nombres de frecuentes", () => {
     expect(Object.keys(tildes).length).toBe(185);
+  });
+});
+
+describe("SEO por artículo (FAQ y letras)", () => {
+  it("faqsDe(): 4 preguntas únicas con datos reales para Benjamín", () => {
+    const b = nombrePorSlug("benjamin")!;
+    const faqs = faqsDe(b);
+    expect(faqs.length).toBe(4);
+    const texto = faqs.map((f) => f.q + " " + f.a).join(" ");
+    expect(texto).toContain("Benjamín");
+    expect(texto).toContain("259.663"); // total 2012–2024
+    expect(texto).toContain("2013"); // año pico
+    // las FAQ son únicas por nombre: Benjamín ≠ Mateo textualmente
+    const mateo = faqsDe(nombrePorSlug("mateo")!);
+    expect(mateo[0].q).not.toBe(faqs[0].q);
+    expect(mateo[0].a).not.toBe(faqs[0].a);
+  });
+
+  it("faqsDe(): respuestas coherentes para un nombre en alza y uno en baja", () => {
+    const b = nombrePorSlug("benjamin")!; // baja
+    const bajas = faqsDe(b).find((f) => f.q.includes("alza o en baja"))!.a;
+    expect(bajas.toLowerCase()).toContain("bajó");
+    const fem = faqsDe(nombrePorSlug("valentina")!)[2].a;
+    expect(fem.toLowerCase()).toContain("mujer");
+  });
+
+  it("LETRAS_CON_FICHA: cubre todas las letras reales de las 24 fichas", () => {
+    for (const n of FICHAS) {
+      const l = n.normalize("NFD").replace(/[\u0300-\u036f]/g, "")[0].toLowerCase();
+      expect(LETRAS_CON_FICHA).toContain(l);
+    }
+    expect(new Set(LETRAS_CON_FICHA).size).toBe(LETRAS_CON_FICHA.length); // sin duplicados
+    expect(LETRAS_CON_FICHA.length).toBeGreaterThan(5); // antes: 5 hardcodeadas
+  });
+
+  it("LETRAS_DISPONIBLES: cada nombre del dataset mapea a una letra de la lista", () => {
+    for (const n of dataset.nombres.slice(0, 500)) {
+      const l = n.nombre.normalize("NFD").replace(/[\u0300-\u036f]/g, "")[0].toLowerCase();
+      expect(LETRAS_DISPONIBLES).toContain(l);
+    }
+    expect(LETRAS_CON_FICHA.every((l) => LETRAS_DISPONIBLES.includes(l))).toBe(true);
+  });
+
+  it("letraDe(): normaliza sin tildes (Ángel → a)", () => {
+    expect(letraDe("Angel")).toBe("a");
+    expect(letraDe("Águeda")).toBe("a");
+    expect(letraDe("Benjamin")).toBe("b");
+    expect(letraDe("Valentina")).toBe("v");
   });
 });
 

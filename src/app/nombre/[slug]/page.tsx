@@ -6,7 +6,10 @@ import {
   FICHAS,
   deltaPct,
   displayName,
+  faqsDe,
   hermanitos,
+  letraDe,
+  LETRAS_CON_FICHA,
   miles,
   nombrePorSlug,
   posicion,
@@ -74,6 +77,44 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   const hermanos = hermanitos(n, 3).filter((h) => tieneFicha(h.nombre));
   const serieAnual = serie(n);
   const primerAnio = serieAnual.find((s) => s.cantidad > 0)?.anio;
+  const letra = letraDe(n.nombre);
+  const faqs = faqsDe(n);
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Inicio", item: `${SITE_URL}/` },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: `Nombres con ${letra.toUpperCase()}`,
+            item: `${SITE_URL}/letra/${letra}/`,
+          },
+          { "@type": "ListItem", position: 3, name: disp, item: `${SITE_URL}/nombre/${slug}/` },
+        ],
+      },
+      {
+        "@type": "ItemPage",
+        name: disp,
+        headline: `Nombre ${disp}: significado, tendencia y ranking en Argentina`,
+        description: `${disp} — datos oficiales RENAPER: ranking 2012–${ANIO_ACTUAL}, evolución, tasa cada 1.000 nacimientos y top de provincias.`,
+        url: `${SITE_URL}/nombre/${slug}/`,
+        inLanguage: "es-AR",
+        mainEntityOfPage: `${SITE_URL}/nombre/${slug}/`,
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: faqs.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      },
+    ],
+  };
 
   return (
     <article>
@@ -84,8 +125,8 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
             ← Inicio
           </Link>
           <span aria-hidden="true" className="text-[#6B6558]/50 dark:text-[#9BA89F]/50">·</span>
-          <Link href="/ranking/" className="text-sm text-[#6B6558] hover:text-[#0F766E] dark:text-[#9BA89F] dark:hover:text-[#5EEAD4]">
-            Ranking nacional
+          <Link href={`/letra/${letra}/`} className="text-sm text-[#6B6558] hover:text-[#0F766E] dark:text-[#9BA89F] dark:hover:text-[#5EEAD4]">
+            Letra {letra}
           </Link>
         </div>
         <div className="flex flex-wrap items-baseline justify-between gap-4">
@@ -181,6 +222,21 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
         </section>
       )}
 
+      {/* Preguntas frecuentes — únicas por nombre, computadas de los datos */}
+      <section className="card mb-8" aria-labelledby="faq">
+        <h2 id="faq" className="font-display mb-4 text-2xl font-bold">
+          Preguntas frecuentes sobre {disp}
+        </h2>
+        <div className="space-y-4">
+          {faqs.map((f) => (
+            <div key={f.q} className="border-b border-[#F0EADA] pb-3 last:border-b-0 dark:border-[#1A2620]">
+              <h3 className="mb-1 font-semibold">{f.q}</h3>
+              <p className="text-[15px] leading-relaxed text-[#6B6558] dark:text-[#9BA89F]">{f.a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Hermanitos */}
       {hermanos.length > 0 && (
         <section className="card mb-8" aria-labelledby="hermanitos">
@@ -229,6 +285,12 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
           1.000 nacimientos del año, sobre el total nacional publicado.
         </p>
       </section>
+
+      {/* Datos estructurados: breadcrumb + item + FAQ */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     </article>
   );
 }

@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { ANIOS, FICHAS } from "@/lib/datos";
+import { ANIOS, FICHAS, LETRAS_CON_FICHA } from "@/lib/datos";
 import { GUIAS } from "@/lib/guias";
 import { SITE_URL } from "@/lib/site";
 
@@ -32,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const letras: MetadataRoute.Sitemap = ["a", "b", "c", "d", "e"].map((l) => ({
+  const letras: MetadataRoute.Sitemap = LETRAS_CON_FICHA.map((l) => ({
     url: `${SITE_URL}/letra/${l}/`,
     lastModified: ahora,
     changeFrequency: "monthly",

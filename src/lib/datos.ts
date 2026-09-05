@@ -220,3 +220,76 @@ const FICHAS_SLUGS = new Set(FICHAS.map((n) => n.toLowerCase()));
 export function tieneFicha(nombre: string): boolean {
   return FICHAS_SLUGS.has(nombre.toLowerCase());
 }
+
+// ---------- letras con fichas (índices dinámicos, no hardcode) ----------
+function sinDiacriticos(s: string): string {
+  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+/** Primera letra (sin tildes, minúscula) del nombre canónico del CSV. */
+export function letraDe(nombre: string): string {
+  return sinDiacriticos(nombre)[0].toLowerCase();
+}
+
+/** Todas las letras que tienen al menos una ficha — alimenta /letra/ y el hub. */
+export const LETRAS_CON_FICHA: string[] = Array.from(
+  new Set(FICHAS.map((n) => letraDe(n)))
+).sort();
+
+/** Letras presentes en el dataset completo (índice por letra para todas). */
+export const LETRAS_DISPONIBLES: string[] = Array.from(
+  new Set(dataset.nombres.map((n) => letraDe(n.nombre)))
+).sort();
+
+// ---------- FAQ por artículo (contenido único computado de los datos) ----------
+export interface Faq {
+  q: string;
+  a: string;
+}
+
+/** 3 preguntas frecuentes ÚNICAS por nombre, con respuestas de los datos reales
+ *  (no plantilla): alimentan la sección visible y el JSON-LD FAQPage. */
+export function faqsDe(n: NombreM): Faq[] {
+  const disp = displayName(n.nombre);
+  const ult = n.porAnio[String(ANIO_ACTUAL)] ?? 0;
+  const d = deltaPct(n, ANIO_ACTUAL);
+  const del = d === null ? null : Math.abs(d);
+  const sexo = sexoDe(n.nombre);
+  const rec = record(n);
+  const provs = topProvincias(n, 1);
+  const prov = provs[0];
+
+  const evo =
+    del === null
+      ? `En ${ANIO_ACTUAL} se registraron ${miles(ult)} bebés con este nombre.`
+      : (d as number) >= 0
+        ? `Entre ${ANIO_ACTUAL - 1} y ${ANIO_ACTUAL} subió ${del.toLocaleString("es-AR", { maximumFractionDigits: 1 })}% (${miles(ult)} registros en ${ANIO_ACTUAL}).`
+        : `Entre ${ANIO_ACTUAL - 1} y ${ANIO_ACTUAL} bajó ${del.toLocaleString("es-AR", { maximumFractionDigits: 1 })}% (${miles(ult)} registros en ${ANIO_ACTUAL}).`;
+
+  return [
+    {
+      q: `¿Cuántos bebés se llamaron ${disp} en Argentina?`,
+      a: `Entre 2012 y ${ANIO_ACTUAL} se registraron ${miles(n.total)} bebés con el nombre ${disp} según RENAPER. El pico fue en ${rec.anio}, con ${miles(rec.cantidad)} registros.`,
+    },
+    {
+      q: `¿${disp} está en alza o en baja?`,
+      a: evo,
+    },
+    {
+      q: `¿${disp} es nombre de varón o de mujer?`,
+      a:
+        sexo === "M"
+          ? `En los registros oficiales, ${disp} predomina como nombre de varón.`
+          : sexo === "F"
+            ? `En los registros oficiales, ${disp} predomina como nombre de mujer.`
+            : `En los registros oficiales, ${disp} no tiene un sexo dominante claro.`,
+    },
+    {
+      q: `¿En qué provincia se usa más ${disp}?`,
+      a:
+        prov && prov.nombre !== "99"
+          ? `La provincia con más registros es ${prov.nombre}, con ${miles(prov.cantidad)} inscripciones (${prov.pct.toLocaleString("es-AR", { maximumFractionDigits: 1 })}% del total nacional).`
+          : `La distribución provincial de ${disp} es pareja en todo el país.`,
+    },
+  ];
+}
