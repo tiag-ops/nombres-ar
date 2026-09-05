@@ -62,7 +62,7 @@ export default function Nav() {
 
       {/* Drawer */}
       <div
-        className={`fixed right-0 top-0 z-50 flex h-full w-72 flex-col bg-[#FDF9F2] shadow-xl transition-transform duration-200 md:hidden dark:bg-[#0D1713] ${
+        className={`fixed inset-y-0 right-0 z-50 flex w-72 flex-col bg-[#FDF9F2] shadow-xl transition-transform duration-200 md:hidden dark:bg-[#0D1713] ${
           abierto ? "translate-x-0" : "translate-x-full"
         }`}
         role="dialog"
