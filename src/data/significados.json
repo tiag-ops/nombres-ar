@@ -1,146 +1,578 @@
 {
- "Benjamin": {
-  "origen": "Hebreo biblíco",
-  "significado": "«Hijo de la derecha» (binyamîn): el predilecto, el hijo menor de Jacob en la Biblia.",
-  "nota": "Uno de los doce hijos de Jacob; la tribu de Benjamín ocupó el territorio de Jerusalén en la historia bíblica.",
-  "santoral": "31 de marzo (San Benjamín, diácono y mártir)"
- },
- "Valentina": {
-  "origen": "Latín",
-  "significado": "«Fuerte, saludable, valerosa» — femenino de Valentín, del latín valens.",
-  "nota": "Nombre vinculado históricamente a la realeza y a varias santas; en Argentina lidera el ranking femenino de la década.",
-  "santoral": "25 de julio (Santa Valentina)"
- },
- "Jazmin": {
-  "origen": "Persa, vía árabe",
-  "significado": "«Flor de jazmín» (yāsamīn), la flor blanca y fragante.",
-  "nota": "Nombre floral que se popularizó masivamente en Argentina y Uruguay desde los años 90.",
-  "santoral": null
- },
- "Mateo": {
-  "origen": "Hebreo, vía griega",
-  "significado": "«Regalo de Dios» (mattityahu: matan «regalo» + Yah «Dios»).",
-  "nota": "Nombre del apóstol y evangelista; escritor del primero de los cuatro Evangelios.",
-  "santoral": "21 de septiembre (San Mateo, apóstol)"
- },
- "Isabella": {
-  "origen": "Hebreo, vía medieval",
-  "significado": "Variante medieval de Isabel: «Dios es mi juramento» (Elisheva).",
-  "nota": "Fue nombre de reinas en Castilla, Inglaterra y Francia; en Argentina irrumpió con fuerza tras los años 2000.",
-  "santoral": "8 de julio (Santa Isabel de Aragón)"
- },
- "Sofia": {
-  "origen": "Griego",
-  "significado": "«Sabiduría» (sophía).",
-  "nota": "Nombre clásico del cristianismo oriental: Hagia Sophia, la «Santa Sabiduría» de Constantinopla.",
-  "santoral": "30 de septiembre (Santa Sofía)"
- },
- "Bautista": {
-  "origen": "Griego",
-  "significado": "«El que bautiza» (baptistés): el que sumerge en el agua.",
-  "nota": "Alude a Juan el Bautista; en el Río de la Plata se volvió nombre propio reciente, casi siempre masculino.",
-  "santoral": "24 de junio (San Juan Bautista)"
- },
- "Martina": {
-  "origen": "Latín",
-  "significado": "Femenino de Martín: «dedicada a Marte», dios romano de la guerra.",
-  "nota": "Nombre sólido y en alza en Argentina durante la década; de pronunciación clara en español y otros idiomas.",
-  "santoral": "30 de enero (Santa Martina)"
- },
- "Agustin": {
-  "origen": "Latín",
-  "significado": "«Majestuoso, venerable» (augustus): el consagrado por los augures.",
-  "nota": "Del nombre del emperador Augusto; San Agustín de Hipona es uno de los Padres de la Iglesia.",
-  "santoral": "28 de agosto (San Agustín)"
- },
- "Nicolas": {
-  "origen": "Griego",
-  "significado": "«Victoria del pueblo» (nīkē «victoria» + laós «pueblo»).",
-  "nota": "San Nicolás de Bari dio origen a la figura de «Papá Noel»; fue el nombre masculino N°1 de Argentina en 2012.",
-  "santoral": "6 de diciembre (San Nicolás)"
- },
- "Mia": {
-  "origen": "Italiano / variante de María",
-  "significado": "«La mía» (del italiano mia): mi querida; también grafía frecuente de María en otros idiomas.",
-  "nota": "Origen doble y discutido: hipocorístico italiano o forma escandinava de María.",
-  "santoral": null
- },
- "Santino": {
-  "origen": "Italiano",
-  "significado": "Diminutivo de Santo: «el santito», el consagrado.",
-  "nota": "Nombre italiano emigrado al Río de la Plata; allí tomó vuelo propio desde los años 2000.",
-  "santoral": null
- },
- "Victoria": {
-  "origen": "Latín",
-  "significado": "«La victoria, la vencedora» — nombre de la diosa romana del triunfo.",
-  "nota": "Nombre de la reina Victoria de Inglaterra; en Argentina es un clásico que nunca desapareció del top.",
-  "santoral": "17 de noviembre (Santa Victoria)"
- },
- "Ezequiel": {
-  "origen": "Hebreo",
-  "significado": "«Dios fortalece» (yehezqēl).",
-  "nota": "Nombre de uno de los grandes profetas del Antiguo Testamento.",
-  "santoral": "10 de abril (San Ezequiel, profeta)"
- },
- "Juan": {
-  "origen": "Hebreo, vía griega y latina",
-  "significado": "«Dios es misericordioso» (Yohanan: Yah + jānān «favorecer, tener piedad»).",
-  "nota": "El nombre más difundido del cristianismo: Juan el Bautista y el evangelista. Base de centenares de compuestos.",
-  "santoral": "24 de junio y 27 de diciembre"
- },
- "Thiago": {
-  "origen": "Gallego-portugués",
-  "significado": "Variante de Santiago (Sant Yago = San Jacobo). Comparte el origen de Jacob: «el que sigue al talón».",
-  "nota": "Grafía moderna del antiguo Tiago gallego; se disparó en el Río de la Plata con la llegada del brasileño Thiago Silva.",
-  "santoral": "25 de julio (Santiago apóstol)"
- },
- "Valentin": {
-  "origen": "Latín",
-  "significado": "«Fuerte, sano, valeroso» (valens).",
-  "nota": "San Valentín, mártir del siglo III, dio nombre a la fiesta del amor del 14 de febrero.",
-  "santoral": "14 de febrero (San Valentín)"
- },
- "Joaquin": {
-  "origen": "Hebreo",
-  "significado": "«Dios establece» o «Dios levanta» (Yěhôyāqîm).",
-  "nota": "Según la tradición, padre de la Virgen María y abuelo de Jesús.",
-  "santoral": "26 de julio (San Joaquín)"
- },
- "Gael": {
-  "origen": "Celta (bretón) — etimología debatida",
-  "significado": "Posiblemente «príncipe generoso»; relacionado con Judicaël, rey bretonés del siglo VII.",
-  "nota": "Nombre de rápido crecimiento global; en Argentina multiplicó su uso entre 2015 y 2020.",
-  "santoral": null
- },
- "Abigail": {
-  "origen": "Hebreo",
-  "significado": "«Mi padre se alegra» / «alegría del padre» (av gav yil).",
-  "nota": "Personaje del primer libro de Samuel: mujer inteligente que evitó un conflicto con el rey David.",
-  "santoral": "1 de septiembre (Santa Abigail)"
- },
- "Maria": {
-  "origen": "Hebreo — etimología debatida",
-  "significado": "De Miryam: posiblemente «la amada», «la exaltada» o «la señora». El nombre más influyente de la cultura occidental.",
-  "nota": "Madre de Jesús en la tradición cristiana; genera cientos de compuestos (María José, María Clara, Ana María).",
-  "santoral": "15 de agosto (Asunción de la Virgen)"
- },
- "Alma": {
-  "origen": "Latín",
-  "significado": "«Nutricia, bondadosa» (alma «la que alimenta»); coincide con la palabra española «alma», espíritu.",
-  "nota": "Del sintagma alma mater; en Argentina es nombre femenino estable desde los años 80.",
-  "santoral": null
- },
- "Emma": {
-  "origen": "Germánico",
-  "significado": "«Total, universal, grande» (ermen).",
-  "nota": "Nombre de reinas medievales (Emma de Normandía); volvió con fuerza global en los años 2000.",
-  "santoral": "19 de abril (Santa Emma de Sajonia)"
- },
- "Gabriel": {
-  "origen": "Hebreo",
-  "significado": "«Fuerza de Dios» (Gavri'el: gever «fuerza» + El «Dios»).",
-  "nota": "Arcángel anunciador del nacimiento de Jesús y de Juan; nombre masculino estable en toda Latinoamérica.",
-  "santoral": "29 de septiembre (San Gabriel arcángel)"
- }
+  "Benjamin": {
+    "origen": "Hebreo biblíco",
+    "significado": "«Hijo de la derecha» (binyamîn): el predilecto, el hijo menor de Jacob en la Biblia.",
+    "nota": "Uno de los doce hijos de Jacob; la tribu de Benjamín ocupó el territorio de Jerusalén en la historia bíblica.",
+    "santoral": "31 de marzo (San Benjamín, diácono y mártir)"
+  },
+  "Valentina": {
+    "origen": "Latín",
+    "significado": "«Fuerte, saludable, valerosa» — femenino de Valentín, del latín valens.",
+    "nota": "Nombre vinculado históricamente a la realeza y a varias santas; en Argentina lidera el ranking femenino de la década.",
+    "santoral": "25 de julio (Santa Valentina)"
+  },
+  "Jazmin": {
+    "origen": "Persa, vía árabe",
+    "significado": "«Flor de jazmín» (yāsamīn), la flor blanca y fragante.",
+    "nota": "Nombre floral que se popularizó masivamente en Argentina y Uruguay desde los años 90.",
+    "santoral": null
+  },
+  "Mateo": {
+    "origen": "Hebreo, vía griega",
+    "significado": "«Regalo de Dios» (mattityahu: matan «regalo» + Yah «Dios»).",
+    "nota": "Nombre del apóstol y evangelista; escritor del primero de los cuatro Evangelios.",
+    "santoral": "21 de septiembre (San Mateo, apóstol)"
+  },
+  "Isabella": {
+    "origen": "Hebreo, vía medieval",
+    "significado": "Variante medieval de Isabel: «Dios es mi juramento» (Elisheva).",
+    "nota": "Fue nombre de reinas en Castilla, Inglaterra y Francia; en Argentina irrumpió con fuerza tras los años 2000.",
+    "santoral": "8 de julio (Santa Isabel de Aragón)"
+  },
+  "Sofia": {
+    "origen": "Griego",
+    "significado": "«Sabiduría» (sophía).",
+    "nota": "Nombre clásico del cristianismo oriental: Hagia Sophia, la «Santa Sabiduría» de Constantinopla.",
+    "santoral": "30 de septiembre (Santa Sofía)"
+  },
+  "Bautista": {
+    "origen": "Griego",
+    "significado": "«El que bautiza» (baptistés): el que sumerge en el agua.",
+    "nota": "Alude a Juan el Bautista; en el Río de la Plata se volvió nombre propio reciente, casi siempre masculino.",
+    "santoral": "24 de junio (San Juan Bautista)"
+  },
+  "Martina": {
+    "origen": "Latín",
+    "significado": "Femenino de Martín: «dedicada a Marte», dios romano de la guerra.",
+    "nota": "Nombre sólido y en alza en Argentina durante la década; de pronunciación clara en español y otros idiomas.",
+    "santoral": "30 de enero (Santa Martina)"
+  },
+  "Agustin": {
+    "origen": "Latín",
+    "significado": "«Majestuoso, venerable» (augustus): el consagrado por los augures.",
+    "nota": "Del nombre del emperador Augusto; San Agustín de Hipona es uno de los Padres de la Iglesia.",
+    "santoral": "28 de agosto (San Agustín)"
+  },
+  "Nicolas": {
+    "origen": "Griego",
+    "significado": "«Victoria del pueblo» (nīkē «victoria» + laós «pueblo»).",
+    "nota": "San Nicolás de Bari dio origen a la figura de «Papá Noel»; fue el nombre masculino N°1 de Argentina en 2012.",
+    "santoral": "6 de diciembre (San Nicolás)"
+  },
+  "Mia": {
+    "origen": "Italiano / variante de María",
+    "significado": "«La mía» (del italiano mia): mi querida; también grafía frecuente de María en otros idiomas.",
+    "nota": "Origen doble y discutido: hipocorístico italiano o forma escandinava de María.",
+    "santoral": null
+  },
+  "Santino": {
+    "origen": "Italiano",
+    "significado": "Diminutivo de Santo: «el santito», el consagrado.",
+    "nota": "Nombre italiano emigrado al Río de la Plata; allí tomó vuelo propio desde los años 2000.",
+    "santoral": null
+  },
+  "Victoria": {
+    "origen": "Latín",
+    "significado": "«La victoria, la vencedora» — nombre de la diosa romana del triunfo.",
+    "nota": "Nombre de la reina Victoria de Inglaterra; en Argentina es un clásico que nunca desapareció del top.",
+    "santoral": "17 de noviembre (Santa Victoria)"
+  },
+  "Ezequiel": {
+    "origen": "Hebreo",
+    "significado": "«Dios fortalece» (yehezqēl).",
+    "nota": "Nombre de uno de los grandes profetas del Antiguo Testamento.",
+    "santoral": "10 de abril (San Ezequiel, profeta)"
+  },
+  "Juan": {
+    "origen": "Hebreo, vía griega y latina",
+    "significado": "«Dios es misericordioso» (Yohanan: Yah + jānān «favorecer, tener piedad»).",
+    "nota": "El nombre más difundido del cristianismo: Juan el Bautista y el evangelista. Base de centenares de compuestos.",
+    "santoral": "24 de junio y 27 de diciembre"
+  },
+  "Thiago": {
+    "origen": "Gallego-portugués",
+    "significado": "Variante de Santiago (Sant Yago = San Jacobo). Comparte el origen de Jacob: «el que sigue al talón».",
+    "nota": "Grafía moderna del antiguo Tiago gallego; se disparó en el Río de la Plata con la llegada del brasileño Thiago Silva.",
+    "santoral": "25 de julio (Santiago apóstol)"
+  },
+  "Valentin": {
+    "origen": "Latín",
+    "significado": "«Fuerte, sano, valeroso» (valens).",
+    "nota": "San Valentín, mártir del siglo III, dio nombre a la fiesta del amor del 14 de febrero.",
+    "santoral": "14 de febrero (San Valentín)"
+  },
+  "Joaquin": {
+    "origen": "Hebreo",
+    "significado": "«Dios establece» o «Dios levanta» (Yěhôyāqîm).",
+    "nota": "Según la tradición, padre de la Virgen María y abuelo de Jesús.",
+    "santoral": "26 de julio (San Joaquín)"
+  },
+  "Gael": {
+    "origen": "Celta (bretón) — etimología debatida",
+    "significado": "Posiblemente «príncipe generoso»; relacionado con Judicaël, rey bretonés del siglo VII.",
+    "nota": "Nombre de rápido crecimiento global; en Argentina multiplicó su uso entre 2015 y 2020.",
+    "santoral": null
+  },
+  "Abigail": {
+    "origen": "Hebreo",
+    "significado": "«Mi padre se alegra» / «alegría del padre» (av gav yil).",
+    "nota": "Personaje del primer libro de Samuel: mujer inteligente que evitó un conflicto con el rey David.",
+    "santoral": "1 de septiembre (Santa Abigail)"
+  },
+  "Maria": {
+    "origen": "Hebreo — etimología debatida",
+    "significado": "De Miryam: posiblemente «la amada», «la exaltada» o «la señora». El nombre más influyente de la cultura occidental.",
+    "nota": "Madre de Jesús en la tradición cristiana; genera cientos de compuestos (María José, María Clara, Ana María).",
+    "santoral": "15 de agosto (Asunción de la Virgen)"
+  },
+  "Alma": {
+    "origen": "Latín",
+    "significado": "«Nutricia, bondadosa» (alma «la que alimenta»); coincide con la palabra española «alma», espíritu.",
+    "nota": "Del sintagma alma mater; en Argentina es nombre femenino estable desde los años 80.",
+    "santoral": null
+  },
+  "Emma": {
+    "origen": "Germánico",
+    "significado": "«Total, universal, grande» (ermen).",
+    "nota": "Nombre de reinas medievales (Emma de Normandía); volvió con fuerza global en los años 2000.",
+    "santoral": "19 de abril (Santa Emma de Sajonia)"
+  },
+  "Gabriel": {
+    "origen": "Hebreo",
+    "significado": "«Fuerza de Dios» (Gavri'el: gever «fuerza» + El «Dios»).",
+    "nota": "Arcángel anunciador del nacimiento de Jesús y de Juan; nombre masculino estable en toda Latinoamérica.",
+    "santoral": "29 de septiembre (San Gabriel arcángel)"
+  },
+  "Valentino": {
+    "origen": "Latín",
+    "significado": "«Fuerte, vigoroso, valiente» (del latín valens, valentis, participio de valere, «tener fuerza, valer»). Es la forma italiana de Valentín, derivada del cognomen romano Valentinus, que indicaba el linaje de la gens Valentia.",
+    "nota": "Se popularizó en el siglo XX por el actor Rodolfo Valentino y la casa de moda italiana del mismo nombre. En Argentina su uso creció desde los años noventa y hoy es uno de los nombres masculinos más elegidos del país, con fuerte presencia entre los nacidos en las últimas dos décadas.",
+    "santoral": "14 de febrero (San Valentín de Roma, mártir)"
+  },
+  "Ignacio": {
+    "origen": "Latín (posible raíz etrusca)",
+    "significado": "«Fogoso, ardiente» (en la tradición popular se lo vincula al latín ignis, «fuego»; en realidad deriva del nombre romano Ignatius, de probable origen etrusco y significado no confirmado).",
+    "nota": "San Ignacio de Loyola, fundador de los jesuitas, lo convirtió en un clásico del mundo hispánico, y su forma vasca Iñigo dio el diminutivo «Nacho». En Argentina es un nombre estable y muy difundido, presente en todas las generaciones y con variantes como Nachito o Nacha.",
+    "santoral": "31 de julio (San Ignacio de Loyola)"
+  },
+  "Catalina": {
+    "origen": "Griego (raíz incierta)",
+    "significado": "«Pura» (por asociación con el griego katharós, «puro»; la etimología más citada la vincula a la diosa Hécate, con sentido de «consagrada a Hécate»). El origen exacto del griego Aikaterinē no está confirmado.",
+    "nota": "Nombre de santas y reinas, como Catalina de Alejandría, mártir del siglo IV, y Catalina la Grande de Rusia. En Argentina es un clásico femenino que reapareció con fuerza en las últimas décadas, y el diminutivo «Cata» resulta muy frecuente entre las niñas.",
+    "santoral": "25 de noviembre (Santa Catalina de Alejandría)"
+  },
+  "Guadalupe": {
+    "origen": "Árabe → latín",
+    "significado": "«Río del lobo» (del árabe wadi, «río, valle», y el latín lupus, «lobo»: Wadi-al-lubb, nombre de un río de Extremadura, España). Es un nombre mariano, difundido por la devoción a la Virgen de Guadalupe.",
+    "nota": "La advocación nació en el siglo XIV en Extremadura y se volvió central en Hispanoamérica tras las apariciones de la Virgen de Guadalupe en México, en 1531. En Argentina se usa tanto para mujeres como para varones, y el apodo «Lupe» es su forma habitual.",
+    "santoral": "12 de diciembre (Nuestra Señora de Guadalupe)"
+  },
+  "Ian": {
+    "origen": "Hebreo → gaélico escocés",
+    "significado": "«Dios es misericordioso» (del hebreo Yohanan, «Yahvé ha sido benévolo»; pasó al latín como Ioannes y de allí al gaélico escocés Iain, cuya forma inglesa Ian se consolidó en el siglo XIX).",
+    "nota": "Forma escocesa de Juan, ligada a los clanes de las Highlands y a escritores como Ian Fleming, creador de James Bond. En Argentina es un nombre corto de sonido internacional, elegido desde los años noventa y aún en crecimiento entre los varones.",
+    "santoral": "24 de junio (San Juan Bautista, por equivalencia con Juan)"
+  },
+  "Francisco": {
+    "origen": "Italiano",
+    "significado": "«Francés, originario de Francia» (del italiano Francesco, derivado del latín medieval Franciscus, «francés» o «libre», en referencia al pueblo franco). La fama del nombre proviene de San Francisco de Asís.",
+    "nota": "San Francisco de Asís (1181-1226) lo convirtió en uno de los nombres más difundidos del cristianismo, y el papa Francisco, primero en adoptarlo, renovó su vigencia mundial. En Argentina es un clásico constante, a menudo usado como segundo nombre.",
+    "santoral": "4 de octubre (San Francisco de Asís)"
+  },
+  "Tomas": {
+    "origen": "Arameo → griego",
+    "significado": "«Gemelo» (del arameo toma, «gemelo», transcrito al griego como Thomas). Llegó al español a través del latín Thomas y alude al apóstol Tomás, llamado Dídimo, que también significa «gemelo» en griego.",
+    "nota": "El apóstol Tomás, célebre por dudar de la resurrección de Jesús, le dio al nombre un matiz escéptico y cercano. Su variante inglesa Thomas difundió el diminutivo «Tommy». En Argentina, Tomas sin tilde es una grafía habitual registrada por el RENAPER junto a Tomás.",
+    "santoral": "3 de julio (Santo Tomás apóstol)"
+  },
+  "Olivia": {
+    "origen": "Latín",
+    "significado": "«La del olivo» (del latín oliva, 'oliva, aceituna'), árbol mediterráneo símbolo de paz y de sabiduría. El nombre lo popularizó Shakespeare en su comedia La noche de reyes (1602), donde Olivia es la dama cortejada por el duque Orsino.",
+    "nota": "Fue un nombre raro hasta el siglo XX, cuando se expandió hasta volverse uno de los más elegidos del mundo; en Argentina integra el lote de preferidos femeninos desde los años 2000. La ciudad santacruceña de Caleta Olivia y la actriz argentino-británica Olivia Hussey lo anclan al uso local.",
+    "santoral": "10 de junio (Santa Oliva de Palermo, mártir)"
+  },
+  "Lautaro": {
+    "origen": "Mapuche",
+    "significado": "«Traro veloz» o «traro calvo», según la etimología aceptada (del mapudungún lef-traru, 'traro veloz', o law-traru, 'traro calvo'; el traro o carancho es un ave rapaz). Es la castellanización del nombre del toqui Leftraru, siglo XVI.",
+    "nota": "Lautaro fue el joven toqui mapuche que lideró la resistencia ante la conquista española y dio muerte a Pedro de Valdivia en 1553. Al ser nombre prehispánico no tiene santo patrono. Muy popular en Argentina y Chile, el delantero Lautaro Martínez lo mantiene vigente."
+  },
+  "Milagros": {
+    "origen": "Español",
+    "significado": "«Milagros», «hechos prodigiosos» (del latín miraculum, 'milagro, maravilla', derivado de mirari, 'admirarse'). Procede de la advocación mariana Nuestra Señora de los Milagros y del nombre completo María de los Milagros, dentro de la tradición católica hispana.",
+    "nota": "Nombre de raíz religiosa que evoca la fe y la esperanza; en Argentina tiene fuerte arraigo por devociones como la Virgen del Milagro de Salta, cuya fiesta reúne cada 15 de septiembre a cientos de miles de fieles. Son frecuentes los hipocorísticos Mila y Mili.",
+    "santoral": "15 de septiembre (Nuestra Señora del Milagro, advocación venerada en Salta)"
+  },
+  "Felipe": {
+    "origen": "Griego → Latín",
+    "significado": "«Amante de los caballos» (del griego Phílippos, compuesto de philos, 'amor, amigo', e hippos, 'caballo'; llegó al español a través del latín Philippus). Fue nombre de reyes de Macedonia, entre ellos Filipo II, padre de Alejandro Magno, y del apóstol Felipe.",
+    "nota": "Nombre de larga tradición real: seis reyes de España lo llevaron y el actual monarca, Felipe VI, mantiene su vigencia. En Argentina es un clásico de presencia sostenida en los registros del RENAPER, y su onomástica del 3 de mayo se celebra junto a la de Santiago el Menor.",
+    "santoral": "3 de mayo: San Felipe apóstol; 26 de mayo: San Felipe Neri."
+  },
+  "Delfina": {
+    "origen": "Griego → Latín",
+    "significado": "«La que viene de Delfos» o «la del delfín» (del griego delphís, 'delfín', y del topónimo Delfos, sede del oráculo de Apolo; pasó al latín como Delphina, femenino de Delphinus). El delfín, animal sagrado para griegos y cristianos, es símbolo de protección y gracia.",
+    "nota": "Nombre elegante de gran arraigo argentino: es en Argentina donde más se usa dentro del mundo hispano. Se vincula con la región francesa del Delfinado y con Santa Delfina de Signe, esposa de San Elzear de Sabrán, noble provenzal del siglo XIV que repartió sus bienes entre pobres.",
+    "santoral": "26 de septiembre: Santa Delfina de Signe (viuda, terciaria franciscana); algunos santorales la fijan el 27 de noviembre."
+  },
+  "Santiago": {
+    "origen": "Hebreo → Español",
+    "significado": "«Santo Iago», es decir «San Jacobo» (del latín Sanctus Iacobus, que se fusionó en Sant Iago y luego en Santiago; Iago es la vieja forma hispana del hebreo Ya'akov, Jacob, 'el que sostiene el talón' o 'el que suplanta').",
+    "nota": "Santiago remite al apóstol Santiago el Mayor, patrón de España y meta del Camino de Compostela. En Argentina es un clásico con profunda presencia: da nombre a la provincia de Santiago del Estero y a numerosas localidades, y el 25 de julio, su onomástica, es fiesta mayor en España.",
+    "santoral": "25 de julio: Santiago el Mayor, apóstol y patrón de España."
+  },
+  "Luz": {
+    "origen": "Latín",
+    "significado": "«La que da claridad» (del latín lux, lucis, 'luz'). Nombre de virtud cristiana que evoca la luz de la fe y del conocimiento; en la tradición hispana se liga a la advocación de Nuestra Señora de la Luz.",
+    "nota": "Nombre breve y luminoso, muy usado en Argentina, a menudo en compuestos como María Luz o Luz María. Se asocia a la Virgen de la Luz, patrona de Tarifa y Cuenca; su onomástica del 1 de junio honra esa advocación, y guarda estrecho parentesco con Lucía.",
+    "santoral": "1 de junio: Nuestra Señora de la Luz (advocación mariana)."
+  },
+  "Kiara": {
+    "origen": "Irlandés → italiano",
+    "significado": "«la de cabello oscuro» (del gaélico irlandés ciar, 'oscuro', a través de Ciara, femenino de Ciarán) o «luz, brillo» (del italiano Chiara, del latín clarus, 'claro, brillante')",
+    "nota": "Su expansión moderna se debe en gran parte a la cultura pop: en 1998 Disney estrenó El rey león II, con Kiara, hija de Simba, como protagonista. En la Argentina se afianzó entre los femeninos más elegidos de las últimas dos décadas, junto a nombres de sonido similar como Keira y Chiara."
+  },
+  "Tahiel": {
+    "origen": "Mapuche (mapudungun)",
+    "significado": "«canto sagrado» (del mapudungun tayül, el canto ritual que entona el machi en ceremonias como el ngillatún; también se le atribuye el sentido de 'hombre libre', sin respaldo académico firme)",
+    "nota": "Como nombre de pila es un uso moderno: se popularizó en la Argentina en las últimas décadas y convive con la grafía alternativa Taiel. Homenajea la cultura mapuche, aunque no hay registro histórico de que se usara como antropónimo tradicional; por eso tampoco tiene santo en el calendario católico."
+  },
+  "Aitana": {
+    "origen": "Español (toponímico)",
+    "significado": "«procedente de la Peña de Aitana» (nombre tomado de la sierra de Aitana, en Alicante, España; raíz prerromana de significado no confirmado, de donde viene el sentido popular de 'cumbre, gloria')",
+    "nota": "Salió de la geografía: la sierra de Aitana es la cumbre más alta de Alicante, España. El poeta Rafael Alberti eligió el nombre para su hija, recordando esas montañas al partir al exilio, y la actriz Aitana Sánchez-Gijón lo difundió en los años 90. Llegó a la Argentina en este siglo y está en pleno crecimiento."
+  },
+  "Ramiro": {
+    "origen": "Germánico (visigodo)",
+    "significado": "«ilustre consejero» (del germánico ragin, 'consejo, deliberación', y mari, 'famoso, ilustre'; latinizado como Ranimirus, fue nombre de reyes hispánicos medievales)",
+    "nota": "Nombre de estirpe real: lo llevaron soberanos de León y de Aragón, como Ramiro I y Ramiro II el Monje, que le dieron peso histórico en la península desde la Edad Media. En la Argentina es un clásico estable, presente en el registro de nombres desde hace generaciones y de uso constante.",
+    "santoral": "13 de marzo, San Ramiro, monje y mártir (con sus doce compañeros, en León)"
+  },
+  "Elias": {
+    "origen": "Hebreo → griego",
+    "significado": "«mi Dios es Yahvé» (del hebreo Eliyahu, unión de El, 'Dios', y Yah, nombre divino; pasó al griego como Elías y de ahí al español)",
+    "nota": "Elías es el gran profeta bíblico que defendió al Dios único frente a los ídolos y que, según la tradición, ascendió al cielo en un carro de fuego; judíos, cristianos y musulmanes lo veneran. En la Argentina es un nombre hispano de larga data, presente en todas las generaciones.",
+    "santoral": "20 de julio, San Elías, profeta"
+  },
+  "Ismael": {
+    "origen": "Hebreo",
+    "significado": "«Dios escucha» (del hebreo Yishma'el, formado por shama', 'oír, escuchar', y El, 'Dios': Dios ha oído la súplica de Agar)",
+    "nota": "En el Génesis, Ismael es el primogénito de Abraham, nacido de la esclava Agar; la tradición lo reconoce como ancestro de los pueblos árabes. El santoral celebra también a un mártir persa homónimo. En la Argentina es un nombre bíblico de uso continuo, sereno y afectuoso.",
+    "santoral": "17 de junio, San Ismael, mártir (con San Manuel y San Sabel, en Calcedonia)"
+  },
+  "Zoe": {
+    "origen": "Griego",
+    "significado": "«Vida» (del griego zōḗ, que significa exactamente «vida»; proviene de la raíz indoeuropea *gweiə-, «vivir», la misma que dio vita en latín y «biología» en griego; en el Nuevo Testamento, zoē designa la vida divina frente a bios, la vida terrena).",
+    "nota": "Nombre griego de abolengo bíblico y filosófico que en Argentina creció desde fines de los años 1990 hasta volverse uno de los más elegidos, según los datos del RENAPER. Comparte raíz con palabras como «zoología», y su impulso moderno suele asociarse a la actriz Zoë Kravitz.",
+    "santoral": "2 de mayo (Santa Zoe de Atalia, mártir del siglo II)"
+  },
+  "Ambar": {
+    "origen": "Árabe → Francés",
+    "significado": "«Ámbar» (del árabe ‘anbar, «ámbar gris», sustancia perfumada, a través del latín medieval ambar y el francés antiguo ambre; la palabra pasó luego a nombrar la resina fósil de joyería. Como nombre propio es un uso moderno, versión española del inglés Amber).",
+    "nota": "Nombre moderno inspirado en la piedra translúcida, sin tradición onomástica antigua. En Argentina se instaló con fuerza en los años 2000 y alcanzó su pico de popularidad hacia 2015 según registros del RENAPER; su variante Amber circula en el mundo angloparlante desde el siglo XIX."
+  },
+  "Tiziano": {
+    "origen": "Italiano → Latín",
+    "significado": "«De la familia de los Ticios» (del cognomen latino Titianus, derivado del nombre de la gens romana Titia, emparentado con Tito; su etimología última es incierta. El italiano lo pronuncia /titˈtsjano/ y como nombre propio pasó también al español).",
+    "nota": "Debe su fama a Tiziano Vecellio, gran pintor veneciano del Renacimiento (1488-1576), autor de la «Venus de Urbino». En Argentina el nombre creció durante los años 2010 y se ubica entre los preferidos, con versión femenina Tiziana. Se celebra el 16 de enero a San Tiziano, obispo de Oderzo en el siglo V.",
+    "santoral": "16 de enero (San Tiziano, obispo de Oderzo, siglo V)"
+  },
+  "Ciro": {
+    "origen": "Persa → Griego",
+    "significado": "«Sol» según los autores clásicos (del persa antiguo Kūruš, latinizado como Cyrōs y españolizado en Ciro; Ctesias y Plutarco lo asociaban al «sol», mientras los estudiosos modernos prefieren «joven» o «el que humilla a su enemigo disputando»: etimología discutida).",
+    "nota": "Es el nombre de Ciro el Grande, fundador del Imperio persa aqueménida, célebre por el «Cilindro de Ciro», señalado a veces como precursor de los derechos humanos. En Argentina retomó difusión en las últimas décadas de la mano de la cultura popular y sigue siendo un clásico masculino.",
+    "santoral": "31 de enero (San Ciro, mártir en Roma, siglo IV, junto a San Juan)"
+  },
+  "Benicio": {
+    "origen": "Italiano → Latín",
+    "significado": "«Bendito, bendecido» (del apellido italiano Benizi, forma de Benedetto, proveniente del latín Benedictus, «bendecido»; se consolidó como nombre de pila a través de San Felipe Benicio, santo italiano del siglo XIII, de la Orden de los Siervos de María).",
+    "nota": "Sin larga tradición onomástica: su uso moderno nace de la hispanización de San Felipe Benicio y se difundió con el actor Benicio del Toro. En Argentina ascendió entre los nombres masculinos en los años 2000 y 2010, según registros del RENAPER. No tiene santo propio: se lo asocia con San Felipe Benicio (23 de marzo)."
+  },
+  "Alejandro": {
+    "origen": "Griego → Latín",
+    "significado": "«El protector de los hombres» o «el defensor de los varones» (del griego Aléxandros, compuesto por aléxein, «defender, proteger», y anḗr, andrós, «varón, hombre»; la forma femenina ya aparece en micénico como a-re-ka-sa-da-ra).",
+    "nota": "Lo universalizó Alejandro Magno, rey de Macedonia educado por Aristóteles, cuyo vasto imperio difundió el nombre por toda Europa y Oriente. En Argentina es uno de los nombres masculinos de uso más constante a lo largo de décadas, con las variantes Alejandra y Alejandrina y un santoral muy nutrido.",
+    "santoral": "26 de febrero (San Alejandro de Alejandría; hay unos treinta santos con este nombre)"
+  },
+  "Lionel": {
+    "origen": "Francés → Latín",
+    "significado": "«Pequeño león» (diminutivo francés de Léon —«león»—, del latín leo, leōnis; nombre medieval que pasó al inglés y figura en la leyenda artúrica del ciclo de Lanzarote-Grial, del siglo XIII, donde es hermano de sir Bors).",
+    "nota": "En Argentina, Lionel es casi sinónimo de Lionel Messi, el rosarino que llevó el nombre a un récord mundial de popularidad. Antes era una rareza de resonancia medieval inglesa y francesa, ligada a la caballería artúrica y a figuras como Lionel Richie. No figura en el santoral católico."
+  },
+  "Daniel": {
+    "origen": "Hebreo",
+    "significado": "«Dios es mi juez» (del hebreo daniyyel, formado por din, «juzgar», y el, «Dios»). Es el nombre de uno de los grandes profetas del Antiguo Testamento, autor de un libro bíblico con visiones del fin de los tiempos.",
+    "nota": "Profeta del cautiverio de Babilonia, famoso por interpretar los sueños del rey y por el episodio del foso de los leones. Nombre bíblico de uso continuo en Occidente; en Argentina figura entre los más elegidos y se abrevia como Dani o Dan.",
+    "santoral": "21 de julio (San Daniel, profeta)"
+  },
+  "Francesca": {
+    "origen": "Italiano → Latín",
+    "significado": "«La francesa» o «la libre» (femenino de Francesco, forma italiana del latín tardío Franciscus, «relativo a los francos», derivado del germánico frank, «hombre libre»).",
+    "nota": "Dante inmortalizó a Francesca da Rímini en la Divina Comedia, convertida en símbolo del amor trágico. En Argentina suena como una versión más eufónica de Francisca, de la familia de Francisco de Asís, y se abrevia con cariño como Fran.",
+    "santoral": "9 de marzo (Santa Francisca Romana)"
+  },
+  "Sebastian": {
+    "origen": "Griego → Latín",
+    "significado": "«Natural de Sebaste» o «venerable» (del latín Sebastianus, gentilicio de Sebaste, ciudad de Asia Menor, cuyo nombre viene del griego sebastos, «venerable», equivalente al título imperial Augusto).",
+    "nota": "Mártir romano del siglo III, san Sebastián fue soldado de Diocleciano y patrono contra la peste; su imagen atravesada de flechas pobló el arte barroco americano. En Argentina es un clásico estable, con el apodo Seba y la variante Bastián.",
+    "santoral": "20 de enero (San Sebastián, mártir)"
+  },
+  "Alexander": {
+    "origen": "Griego → Latín",
+    "significado": "«El protector de los hombres» (del griego Alexandros, compuesto por alexein, «defender, proteger», y aner, andros, «hombre»; latinizado como Alexander, del que procede el español Alejandro).",
+    "nota": "Alejandro Magno, educado por Aristóteles y rey de Macedonia, extendió el nombre por Europa y Asia en el siglo IV a. C. En Argentina conviven la forma española Alejandro y la inglesa Alexander, muy usada en las últimas décadas, con el apodo Alex.",
+    "santoral": "26 de febrero (San Alejandro de Alejandría)"
+  },
+  "Emilia": {
+    "origen": "Latín",
+    "significado": "«La émula» (femenino de Emilio y Emiliano, del latín Aemilius, nombre de la antigua gens romana Emilia, derivado de aemulus, «émulo, el que rivaliza o imita»).",
+    "nota": "Perpetúa una de las familias patricias más antiguas de Roma, la gens Aemilia. Boccaccio la usó en su Teseida y Shakespeare la convirtió en la esposa de Yago en Otelo. En Argentina crece entre los femeninos breves y elegantes, junto a Emily.",
+    "santoral": "24 de agosto (Santa Emilia de Vialar)"
+  },
+  "Bastian": {
+    "origen": "Alemán",
+    "significado": "«Venerable» (hipocorístico alemán de Sebastián, sin etimología propia: hereda el significado de su nombre original, «el de Sebaste», que viene del griego sebastos, «venerable»). En Argentina se registra como variante de Sebastián.",
+    "nota": "Forma corta de Sebastián, difundida en alemán y en países nórdicos, que en Argentina se usa como variante propia, a menudo escrita Bastián. El escritor Michael Ende la popularizó en el protagonista de La historia interminable, su gran best seller infantil."
+  },
+  "Lucia": {
+    "origen": "Latín",
+    "significado": "«La que porta luz» (femenino del latín Lucius, derivado de lux, lucis, «luz»; en español se acentúa Lucía). Nombre de una mártir de Siracusa muy venerada desde la Antigüedad.",
+    "nota": "Santa Lucía de Siracusa, martirizada en el siglo IV, es patrona de la vista; su fiesta del 13 de diciembre inaugura la Navidad en Suecia y Noruega, donde las niñas portan coronas de velas. En Argentina es uno de los femeninos favoritos, abreviado Luci.",
+    "santoral": "13 de diciembre (Santa Lucía, virgen y mártir)"
+  },
+  "David": {
+    "origen": "Hebreo",
+    "significado": "«Amado» o «el predilecto» (del hebreo דָּוִד, dāwid, «amado, querido», derivado de la raíz d-w-d). Por extensión se interpreta como «el amado por Dios».",
+    "nota": "Segundo rey de Israel, vencedor de Goliat y autor tradicional de los Salmos, es uno de los personajes más citados de la Biblia. Su prestigio religioso e histórico lo convirtió en un clásico universal: en Argentina figura entre los nombres masculinos más registrados desde hace décadas.",
+    "santoral": "29 de diciembre (San David, rey y profeta)"
+  },
+  "Bianca": {
+    "origen": "Italiano → Germánico",
+    "significado": "«Blanca» o «resplandeciente» (variante italiana de Blanca, que deriva del germánico blank, «blanco, brillante»). Comparte con Blanca su significado de pureza y luz.",
+    "nota": "La popularizaron los personajes de Shakespeare en «La fierecilla domada» y «Otelo». En Argentina convive con la forma tradicional Blanca y creció mucho desde fines de los años ochenta, seducidos por su sonoridad italiana. No tiene santo propio en el calendario católico: se la celebra junto a Santa Blanca."
+  },
+  "Emanuel": {
+    "origen": "Hebreo",
+    "significado": "«Dios con nosotros» (del hebreo עִמָּנוּאֵל, immanu'el, compuesto de immanu, «con nosotros», y El, «Dios»). Es el nombre profetizado para el Mesías en el libro de Isaías y aplicado a Jesús en el Evangelio de Mateo.",
+    "nota": "La profecía de Isaías (7,14) lo anuncia como nombre del Mesías y el Evangelio de Mateo lo aplica a Jesús. Variante de Manuel, en el mundo hispano se usa con las grafías Emanuel y Emmanuel; en Argentina predomina la forma Emanuel, de fuerte tradición religiosa.",
+    "santoral": "17 de junio (San Manuel, mártir, con sus hermanos Sabas e Ismael)"
+  },
+  "Noah": {
+    "origen": "Hebreo",
+    "significado": "«Descanso» o «consuelo» (del hebreo נֹחַ, nóaḥ, emparentado con el verbo núaḥ, «descansar»). En el Génesis, el patriarca del arca recibe este nombre como promesa de alivio tras la maldición de la tierra.",
+    "nota": "En la Biblia, Noé salva a su familia y a los animales del diluvio, y su nombre se lee como augurio de consuelo (Génesis 5,29). La grafía inglesa Noah se impuso en Argentina en las últimas décadas y es una de las variantes modernas preferidas sobre Noé. No tiene santoral propio en el calendario católico."
+  },
+  "Bruno": {
+    "origen": "Germánico",
+    "significado": "«Coraza, protección» o «moreno» (del alemán antiguo brunna, «armadura, protección», o brun, «marrón, moreno»). Ambos sentidos conviven desde la Edad Media, cuando el nombre se difundió del ámbito germánico al resto de Europa.",
+    "nota": "San Bruno de Colonia, fundador de los cartujos en el siglo XI, le dio prestigio religioso, y el filósofo Giordano Bruno, quemado por la Inquisición, es otro portador célebre. En Argentina, Bruno creció notablemente desde fines de los años noventa y hoy figura entre las elecciones habituales para varones.",
+    "santoral": "6 de octubre (San Bruno de Colonia, fundador de los cartujos)"
+  },
+  "Julieta": {
+    "origen": "Latín → Italiano",
+    "significado": "«Joven» o «de la familia Julia» (diminutivo italiano de Julia, femenino del latín Iulius, nombre de la gens Julia, emparentada con Iuppiter, «Júpiter»). Por extensión se interpreta como «consagrada a Júpiter».",
+    "nota": "La inmortalizó Shakespeare en «Romeo y Julieta», que la volvió símbolo universal del amor trágico. En Argentina se consolidó desde los años ochenta entre los nombres femeninos más elegidos y suma referentes culturales como la actriz Julieta Díaz.",
+    "santoral": "16 de junio (Santa Julieta, mártir junto a su hijo Quirico)"
+  },
+  "Lorenzo": {
+    "origen": "Latín",
+    "significado": "«Coronado de laurel» o «natural de Laurento» (del latín Laurentius, derivado de Laurentum, antigua ciudad del Lacio, y de laurus, «laurel», símbolo romano de victoria y gloria).",
+    "nota": "San Lorenzo, diácono romano martirizado en 258, es uno de los santos más venerados de Hispanoamérica. En Argentina, las Perseidas de agosto se conocen como «Lágrimas de San Lorenzo» y el nombre remite también a la batalla de San Lorenzo (1813), primer combate de los Granaderos de San Martín.",
+    "santoral": "10 de agosto (San Lorenzo, diácono y mártir)"
+  },
+  "Leonel": {
+    "origen": "Latín",
+    "significado": "«Pequeño león» (diminutivo de León: del latín leo, y este del griego léon, «león»). En español y portugués es la forma de Lionel, diminutivo del francés antiguo lion, también «león».",
+    "nota": "Nombre difundido en el mundo hispano desde la Edad Media por el ciclo arturiano, donde Lionel es uno de los caballeros de la Mesa Redonda, sobrino de Lanzarote. En Argentina se consolidó entre los años 1990 y 2010, impulsado también por la fama de Lionel Messi, cuya variante comparte la misma raíz.",
+    "santoral": "San León Magno, papa y doctor de la Iglesia (10 de noviembre)"
+  },
+  "Martin": {
+    "origen": "Latín",
+    "significado": "«Consagrado a Marte», «guerrero» (del nombre romano Martinus, derivado de Martis, genitivo del nombre del dios Marte; en origen era un cognomen que aludía al dios romano de la guerra).",
+    "nota": "Santificado por San Martín de Tours, obispo del siglo IV y patrono de los soldados, se volvió uno de los nombres más usados de Europa y América. En Argentina remite además a José de San Martín, el Libertador, y es un clásico que nunca dejó de estar entre los preferidos.",
+    "santoral": "San Martín de Tours, obispo (11 de noviembre)"
+  },
+  "Nahiara": {
+    "origen": "Vasco",
+    "significado": "«La deseada» (asociación popular con el euskera nahi, «deseo, voluntad»). Su origen documentado es el topónimo vasco Naiara, nombre de la ciudad española de Nájera (La Rioja); la grafía con h es una variante moderna del mismo nombre.",
+    "nota": "Nombre femenino de uso reciente: se difundió en el País Vasco en los años 1990 y llegó a Argentina, donde se instaló con fuerza en la década de 2000. Al no estar confirmada la lectura de «deseo», se la considera una etimología popular; el vínculo histórico es el topónimo Nájera/Naiara."
+  },
+  "Agustina": {
+    "origen": "Latín",
+    "significado": "«La venerable», «la majestuosa» (femenino de Agustín, del latín Augustinus, derivado de augustus, «venerable, sagrado, majestuoso», título que evocaba la dignidad sagrada del emperador).",
+    "nota": "El nombre evoca a San Agustín de Hipona (354-430), obispo, filósofo y doctor de la Iglesia, autor de las «Confesiones». En Argentina es un clásico femenino de registro permanente: sin picos exagerados, se mantiene entre los nombres más elegidos desde hace décadas.",
+    "santoral": "San Agustín de Hipona, obispo y doctor de la Iglesia (28 de agosto)"
+  },
+  "Morena": {
+    "origen": "Español → Latín",
+    "significado": "«La de tez morena», «la de piel oscura» (del español moreno, adjetivo derivado de moro con el sufijo -eno; a su vez del latín Maurus, «habitante de la Mauritania», por la tez oscura que se atribuía a los moros).",
+    "nota": "Como nombre de pila es un uso moderno del adjetivo, sin raíz onomástica antigua ni santoral, por lo que la tradición católica no le asignó fecha. Suena dulce y luminoso y gana terreno en el Río de la Plata: en Uruguay y Argentina figura entre los favoritos de las últimas décadas."
+  },
+  "Nahuel": {
+    "origen": "Mapuche",
+    "significado": "«Tigre» (en el habla del Cono Sur) o «jaguar» (del mapudungun nawel, que designa al gran felino americano; «tigre» es la traducción coloquial con que se lo conoce en Argentina y Chile).",
+    "nota": "Nombre del pueblo mapuche, compartido entre Argentina y Chile, que se asentó en el registro civil durante el siglo XX. Lo difundió el lago Nahuel Huapi, cuyo nombre suele traducirse «isla del jaguar», y lo llevan figuras públicas argentinas como Nahuel Guzmán o Nahuel Molina."
+  },
+  "Lucas": {
+    "origen": "Griego → Latín",
+    "significado": "«El luminoso», «el que brilla» (del griego Loukâs, forma griega del latín Lūcĭus, ligado a lux, lucis, «luz», con el sentido de «el que destacaba por su brillo» o «nacido al amanecer»; la hipótesis del gentilicio de Lucania suele descartarse).",
+    "nota": "San Lucas, autor del tercer Evangelio y de los Hechos de los Apóstoles y compañero de san Pablo, lo consagró en la cristiandad; es patrón de médicos y artistas. En Argentina, Lucas es de los nombres masculinos más elegidos desde la década de 1990 y sigue vigente.",
+    "santoral": "San Lucas Evangelista (18 de octubre)"
+  },
+  "Jose": {
+    "origen": "Hebreo",
+    "significado": "«Dios añadirá» (del hebreo yōsēf, 'añadirá', del verbo yāsaf, 'añadir'): es el nombre del hijo undécimo de Jacob y el padre putativo de Jesús en la tradición cristiana.",
+    "nota": "Nombre de enorme arraigo en Argentina: fue el más registrado durante décadas y da nombre a San José de Calasanz, patrono de la enseñanza. En el habla rioplatense se asocia con el mote «Pepe» y con la figura de José de San Martín, nuestro Libertador.",
+    "santoral": "19 de marzo (San José, esposo de la Virgen María)"
+  },
+  "Maximo": {
+    "origen": "Latín",
+    "significado": "«El más grande» (del latín Maximus, superlativo de magnus, 'grande'): era un cognomen honorífico de la Roma republicana, llevado por familias como los Fabios y los Quintilios.",
+    "nota": "Cruzó al español como nombre propio desde la Antigüedad y en Argentina se afianzó durante el siglo XX; Máximo Kirchner lo devolvió a la primera plana política nacional. Conserva una sonoridad firme, entre lo clásico romano y lo moderno.",
+    "santoral": "13 de agosto (San Máximo el Confesor)"
+  },
+  "Nicole": {
+    "origen": "Francés → Griego",
+    "significado": "«Victoria del pueblo» (del griego Nikólaos, compuesto de níkē, 'victoria', y laós, 'pueblo'): forma femenina francesa de Nicolás, difundida como nombre independiente desde el siglo XX.",
+    "nota": "Se impuso en la Argentina de los noventa de la mano de figuras mediáticas y hoy es un clásico femenino. Al ser una variante de Nicolás, no tiene santa propia: se la vincula al 6 de diciembre, fiesta de San Nicolás de Bari, patrono de los niños."
+  },
+  "Pilar": {
+    "origen": "Español (devocional mariano) → Latín",
+    "significado": "«Columna» (del latín pila, 'columna'): alude a la Virgen del Pilar, cuya imagen se venera desde el siglo I sobre una columna en Zaragoza, según la tradición de la aparición al apóstol Santiago.",
+    "nota": "Es nombre devocional mariano y fiesta nacional en España el 12 de octubre, Nuestra Señora del Pilar, fecha que en Argentina coincide con el Día del Respeto a la Diversidad Cultural. Muy difundido, dio nombre al partido bonaerense de Pilar.",
+    "santoral": "12 de octubre (Nuestra Señora del Pilar)"
+  },
+  "Xiomara": {
+    "origen": "Incierto (probable germánico)",
+    "significado": "Origen debatido: suele considerarse variante de Guiomar, nombre de posible raíz germánica (del antiguo alto alemán wīg, 'combate', y māri, 'famoso'), aunque también pudo surgir como creación moderna en español.",
+    "nota": "No existe una etimología confirmada y ningún santo la celebra en el calendario católico. Es frecuente en América Latina, sobre todo en República Dominicana, Nicaragua y Honduras; la presidenta hondureña Xiomara Castro la puso en la actualidad regional."
+  },
+  "Dylan": {
+    "origen": "Galés",
+    "significado": "«Hijo de la ola» (del galés dy, 'grande', y llanw, 'ola, marea'): en la mitología galesa del Mabinogion, Dylan ail Don es el dios del mar, hijo de la diosa Arianrhod, que muere ahogado por su tío Gofannon.",
+    "nota": "Nombre galés tradicional que se popularizó en el siglo XX gracias al poeta Dylan Thomas, ícono de la lírica en lengua inglesa. En Argentina llegó con fuerza desde los años noventa y se mantiene vigente, también por el músico Bob Dylan."
+  },
+  "Franchesca": {
+    "origen": "Italiano → Latín",
+    "significado": "«La francesa» o «la libre» (del italiano Francesca, femenino de Francesco, derivado del latín Franciscus, 'francés' o 'libre'): se difundió por San Francisco de Asís y las cortes italianas del Renacimiento.",
+    "nota": "Grafía alternativa de Francesca, asentada también con h en el padrón del RENAPER; la forma española tradicional es Francisca. Santa Francisca Romana se celebra el 9 de marzo. Suena italiana y elegante, con variantes como Francesca o Pancha.",
+    "santoral": "9 de marzo (Santa Francisca Romana)"
+  },
+  "Matias": {
+    "origen": "Hebreo → griego",
+    "significado": "«Don de Dios» o «regalo de Yahvé» (del hebreo Mattityahu, 'don de Yahvé', que pasó al griego como Matthías y de allí al latín; no debe confundirse con Mateo, cuyo nombre comparte significado).",
+    "nota": "Fue el apóstol elegido por sorteo tras la traición de Judas para completar los Doce (Hechos 1, 15-26); la tradición lo presenta como misionero y mártir. En Argentina es uno de los nombres masculinos más frecuentes desde hace décadas, clásico y constante entre generaciones.",
+    "santoral": "14 de mayo (San Matías, apóstol)"
+  },
+  "Jeremias": {
+    "origen": "Hebreo → griego",
+    "significado": "«Yahvé exalta» o «Dios me eleva» (del hebreo Yirmeyahu, compuesto por el nombre divino y la raíz de 'elevar, exaltar'; al español llegó a través del griego Hieremías y del latín Jeremías).",
+    "nota": "Profeta del Antiguo Testamento que anunció la caída de Jerusalén y el destierro de Babilonia; sus lamentos inspiraron la palabra 'jeremiada'. La Iglesia lo considera figura de Cristo sufriente. Es un nombre bíblico de uso permanente en Argentina, sin picos de moda.",
+    "santoral": "1 de mayo (San Jeremías, profeta)"
+  },
+  "Leon": {
+    "origen": "Griego → latín",
+    "significado": "«León», el animal (del griego léon, 'león', que el latín adoptó como leo, leonis; en la era cristiana la forma griega se fusionó con el cognado latino Leo y ambas se usan como intercambiables).",
+    "nota": "Nombre de trece papas; el más célebre, San León Magno (s. V), que según la tradición detuvo a Atila frente a Roma. Tras décadas de uso moderado, León volvió a estar de moda en Argentina y evoca también al músico folk-rock León Gieco.",
+    "santoral": "10 de noviembre (San León Magno, papa y doctor de la Iglesia)"
+  },
+  "Belen": {
+    "origen": "Hebreo",
+    "significado": "«Casa del pan» (del hebreo Bet Lejem, 'casa del pan'; es un nombre toponímico, tomado de la ciudad de Belén, donde nació Jesús, y usado en el mundo hispano como nombre propio femenino).",
+    "nota": "Belén es la ciudad donde nació Jesús y su nombre se convirtió en nombre de pila femenino. En Argentina explotó en popularidad durante los años 90 y 2000, y llegó a ser uno de los más elegidos del país. No tiene santo propio: su onomástica se asocia a la Navidad."
+  },
+  "Julian": {
+    "origen": "Latín",
+    "significado": "«Perteneciente a la gens Julia» (del latín Iulianus, derivado del nombre de la familia romana Iulia, la de Julio César; algunos estudiosos lo vinculan también con la idea de 'juventud, juvenil').",
+    "nota": "Lo llevó Juliano el Apóstata, último emperador pagano de Roma, pero también numerosos santos, como San Julián el Hospitalario. En Argentina es un clásico que nunca dejó de usarse: estable desde los años 60 y muy difundido entre las generaciones actuales.",
+    "santoral": "6 de marzo (San Julián; también 9 de enero y 28 de enero, según el santoral)"
+  },
+  "Renata": {
+    "origen": "Latín",
+    "significado": "«Renacida», «la que ha vuelto a nacer» (del latín renata, femenino de renatus, participio del verbo renasci, 'renacer'; en el cristianismo se asoció al renacimiento espiritual del bautismo).",
+    "nota": "Nombre latino cristiano: alude al renacer del bautismo como segundo nacimiento; antes, los iniciados del mitraísmo se llamaban a sí mismos renatus. En Argentina pasó de ser infrecuente a ganar terreno desde los años 2010. Su onomástica no tiene santa con fecha firme en el calendario."
+  },
+  "Isaias": {
+    "origen": "Hebreo → griego",
+    "significado": "«Yahvé es salvación» o «Dios salva» (del hebreo Yeshayahu, formado por el nombre divino y yesha, 'salvación'; llegó al español a través del griego Esaías y del latín Isaias, forma usada en la Vulgata).",
+    "nota": "El más citado de los profetas hebreos: su libro, llamado 'el quinto evangelio', anuncia al Mesías y la paz ('convertirán sus espadas en arados'). En Argentina es un nombre bíblico clásico, discreto pero de uso constante.",
+    "santoral": "9 de mayo (San Isaías, profeta)"
+  },
+  "Liam": {
+    "origen": "Irlandés → germánico",
+    "significado": "Hipocorístico irlandés de Guillermo, del gaélico Uilliam, que a su vez proviene del germánico Willahelm: «protector decidido» (de willa, «voluntad», y helm, «yelmo o protección»).",
+    "nota": "Forma corta que se independizó como nombre en el siglo XX y se globalizó con actores como Liam Neeson. Es desde hace años uno de los nombres masculinos más registrados en Argentina y el mundo angloparlante, aunque conserva su raíz gaélica.",
+    "santoral": "San Guillermo de Bourges, 10 de enero"
+  },
+  "Angel": {
+    "origen": "Griego → latín",
+    "significado": "Significa «mensajero» (del griego ángelos, «enviado o mensajero», pasado al latín como angelus; traduce el hebreo mal'aj, que en la Biblia designa a los enviados de Dios).",
+    "nota": "Nombre clásico hispánico, presente en Argentina desde la época colonial y sostenido por la devoción al ángel de la guarda. Combinaciones como Ángel Gabriel o María Ángela son habituales; también se usa como segundo nombre, ejemplo de Ángel Di María.",
+    "santoral": "San Ángel de Sicilia, 5 de mayo"
+  },
+  "Simon": {
+    "origen": "Hebreo → griego → latín",
+    "significado": "Forma inglesa y francesa de Simón, «el que escucha» o «Dios ha oído» (del hebreo Shim'ón, relacionado con shama, «oír», a través del griego Simōn y del latín).",
+    "nota": "Nombre bíblico por excelencia: Simón Pedro, el pescador de Galilea, es el primer papa según la tradición católica. La grafía sin tilde predominó en el mundo angloparlante, donde sigue vigente, y en Argentina aparece sobre todo en familias de ese origen lingüístico.",
+    "santoral": "San Simón el Apóstol, 28 de octubre"
+  },
+  "Luciano": {
+    "origen": "Latín",
+    "significado": "«El luminoso» o «el que nace al amanecer» (del latín Lucianus, gentilicio del nombre romano Lucius, derivado de lux, lucis, «luz»).",
+    "nota": "Lo popularizó el escritor sirio-griego Luciano de Samósata, célebre satírico del siglo II, y más tarde la tradición cristiana con varios mártires del mismo nombre. En Argentina se instaló desde mediados del siglo XX y sigue siendo una elección frecuente.",
+    "santoral": "San Luciano de Antioquía, 7 de enero"
+  },
+  "Agostina": {
+    "origen": "Latín",
+    "significado": "Femenino de Agustín, «la venerable, la majestuosa» (del latín Augustinus, derivado del título imperial Augustus, «consagrado, majestuoso», ligado a la gens de Augusto).",
+    "nota": "Forma italiana de Agustina, difundida en Argentina por la inmigración italiana y la devoción a San Agustín de Hipona, padre de la Iglesia y autor de las Confesiones. Convive con la variante Agustina, igualmente popular entre las niñas del país.",
+    "santoral": "Santa Agustina Pietrantoni, 13 de noviembre"
+  },
+  "Uriel": {
+    "origen": "Hebreo",
+    "significado": "«Mi luz es Dios» (del hebreo 'ur, «luz», y 'El, «Dios»). Es uno de los cuatro arcángeles de la tradición judía, mencionado en el libro de Enoc y en textos apócrifos.",
+    "nota": "Arcángel que no figura en los libros canónicos de la Biblia, por eso la Iglesia católica no le da culto litúrgico oficial y carece de santoral propio. En Argentina se difundió a fines del siglo XX, con eco especial en la comunidad judía y entre nombres de fuerte sonoridad bíblica."
+  },
+  "Antonella": {
+    "origen": "Italiano → latín",
+    "significado": "Diminutivo italiano de Antonia, «perteneciente a la gens Antonia» (del latín Antonius, nombre de una antigua familia romana de origen probablemente etrusco y etimología aún no confirmada).",
+    "nota": "Se popularizó en Argentina con la inmigración italiana y pegó un salto en 1992, cuando la telenovela Antonella, protagonizada por Andrea del Boca, se convirtió en éxito nacional. Sigue entre los nombres femeninos más elegidos, sobre todo desde fines del siglo XX."
+  },
+  "Eluney": {
+    "origen": "Mapuche",
+    "significado": "Nombre de origen mapuche, sin raíces documentadas en la onomástica clásica. Se interpreta popularmente como «regalo del cielo», asociándolo a la raíz 'elu', dar, aunque los lingüistas no confirman una etimología firme; es un nombre de creación reciente, difundido sobre todo en Argentina y Chile.",
+    "nota": "Eluney se instaló en Argentina hacia fines del siglo XX como homenaje a la cultura mapuche y hoy se usa en ambos géneros. Al ser un nombre nuevo, no tiene santo ni tradición literaria antigua; su encanto reside en su sonoridad y en la glosa afectiva de «regalo del cielo», más que en una etimología verificable."
+  },
+  "Abril": {
+    "origen": "Latín",
+    "significado": "Nombre femenino tomado del mes de abril. Deriva del latín 'aprilis', vinculado por tradición al verbo 'aperire', «abrir», por la apertura de las flores en primavera; su uso como nombre de pila es una práctica moderna, sin etimología onomástica antigua ni santo asociado.",
+    "nota": "Abril se popularizó en Argentina y América Latina hacia fines del siglo XX, dentro de la moda de nombres tomados del calendario. Como no remite a ninguna figura religiosa, no tiene onomástica tradicional, y tampoco hay registros históricos de su uso como nombre propio antes del siglo XX, lo que lo vuelve un nombre claramente moderno y primaveral."
+  },
+  "Camila": {
+    "origen": "Latín",
+    "significado": "Procede del latín 'camilla', femenino de 'camillus', término que en la Antigua Roma designaba al niño o la niña noble e impúber que asistía a los sacerdotes en los sacrificios; significa «asistente del culto» o «acólita». En español y portugués es la forma de 'Camilla', de probable raíz etrusca.",
+    "nota": "Virgilio inmortalizó en la 'Eneida' a Camila, doncella guerrera que combate junto a Turno, y el nombre renació en las lenguas romances. En Argentina es uno de los femeninos más elegidos desde los años 2000; no tiene un santo femenino de uso generalizado, aunque el masculino Camilo festeja el 18 de julio."
+  },
+  "Giovanni": {
+    "origen": "Hebreo → Italiano",
+    "significado": "Forma italiana de Juan (latín 'Iohannes', griego 'Ioannes', hebreo 'Yochanan'). Significa «Dios es misericordioso» o «Yahvé ha sido bondadoso», de la raíz hebrea 'ḥanan', ser benigno. Es uno de los nombres masculinos más comunes de Italia desde la Baja Edad Media.",
+    "nota": "Lo llevaron el escritor Giovanni Boccaccio, el pintor Giovanni Bellini y san Juan Bautista, cuya fiesta el 24 de junio es el día del santo de este nombre. En Argentina se usa sobre todo en familias de origen italiano, una de las colectividades más numerosas del país, donde convive con su forma local Juan.",
+    "santoral": "24 de junio (San Juan Bautista)"
+  },
+  "Josefina": {
+    "origen": "Hebreo",
+    "significado": "Femenino de José, del hebreo 'Yosef', «él añadirá» o «Dios aumentará», según la etimología bíblica del patriarca que interpretaba los sueños en Egipto. Circula en las lenguas romances desde el siglo XIX, con la forma francesa 'Joséphine' como variante célebre.",
+    "nota": "El nombre está asociado a santa Josefina Bakhita, religiosa sudanesa canonizada en 2000 y festejada el 8 de febrero, además del propio san José (19 de marzo). En Argentina tuvo gran difusión en la primera mitad del siglo XX, decayó y ahora vuelve con fuerza como nombre clásico y elegante, con diminutivos cariñosos como Fina.",
+    "santoral": "8 de febrero (Santa Josefina Bakhita)"
+  },
+  "Enzo": {
+    "origen": "Germánico → Italiano",
+    "significado": "Nombre italiano de significado incierto: se lo considera una forma antigua de 'Heinz', hipocorístico germánico de 'Heinrich', «el amo de la casa», o una variante del germánico 'Anzo', «gigante». Hoy también funciona como abreviación de nombres terminados en '-enzo', como Vincenzo o Lorenzo.",
+    "nota": "Se difundió en el siglo XIII con Enzio de Cerdeña, hijo del emperador Federico II, y en el siglo XX lo popularizó el fundador de Ferrari, Enzo Ferrari. No tiene santo propio verificado, por lo que su onomástica suele asociarse a San Enrique. En Argentina es un nombre masculino muy habitual desde los años 2010."
+  },
+  "Roman": {
+    "origen": "Latín",
+    "significado": "Viene del latín 'Romanus', «romano» o «natural de Roma», gentilicio de la ciudad del Tíber; en español se escribe Román. Es nombre de varios santos tempranos, entre ellos un obispo de Ruan del siglo VII, y de soberanos medievales de Bulgaria y Kiev.",
+    "nota": "Román llegó a la Argentina con la inmigración española e italiana y por devoción a San Román; su día se festeja el 28 de febrero (San Román de Condat) y también el 23 de octubre (San Román de Ruan). Es un clásico discreto, con aire señorial, que nunca desapareció del registro onomástico argentino.",
+    "santoral": "28 de febrero (San Román de Condat)"
+  }
 }

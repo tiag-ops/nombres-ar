@@ -60,8 +60,8 @@ describe("consistencia del dataset", () => {
     for (const n of dataset.nombres) expect(n.total).toBeGreaterThanOrEqual(100);
   });
 
-  it("los 24 top-24 tienen significado y sexo", () => {
-    expect(FICHAS.length).toBe(24);
+  it("los 100 top-100 tienen significado y sexo", () => {
+    expect(FICHAS.length).toBe(100);
     for (const n of FICHAS) {
       expect(significados[n], `sin significado: ${n}`).toBeDefined();
       expect(sexoDe(n), `sin sexo: ${n}`).not.toBeNull();
