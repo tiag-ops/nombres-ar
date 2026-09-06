@@ -120,7 +120,7 @@ export default function Home() {
         <h2 id="letras" className="font-display mb-4 text-2xl font-bold">
           Explorar por letra
         </h2>
-        <div className="grid grid-cols-6 gap-2 sm:gap-3" style={{ maxWidth: 520 }}>
+        <div className="grid grid-cols-4 gap-2 sm:grid-cols-6 sm:gap-3" style={{ maxWidth: 520 }}>
           {LETRAS_CON_FICHA.map((l) => (
             <Link
               key={l}

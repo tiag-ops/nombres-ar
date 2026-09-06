@@ -54,7 +54,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body className={`${serif.variable} ${inter.variable}`}>
-        <header className="sticky top-0 z-10 border-b border-[#E4DCCB] bg-[#FDF9F2]/95 backdrop-blur dark:border-[#23312B] dark:bg-[#0C1512]/95">
+        <header className="sticky top-0 z-10 border-b border-[#E4DCCB] bg-[#FDF9F2] dark:border-[#23312B] dark:bg-[#0C1512]">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
             <Link href="/" className="font-display text-xl font-bold tracking-tight">
               Nombres<span className="text-[#0F766E]">AR</span>
