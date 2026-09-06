@@ -231,6 +231,27 @@ export function letraDe(nombre: string): string {
   return sinDiacriticos(nombre)[0].toLowerCase();
 }
 
+function capitaliza(s: string): string {
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+/** Versión corta del campo "origen" para cards/listados (la ficha lleva el texto completo):
+ *  conserva la flecha "Hebreo → Español", corta en separadores (; : / () y truncar. */
+export function origenCorto(origen: string): string {
+  let o = origen.trim();
+  if (o.includes("→")) {
+    const m = o.match(/^([^;:()]+→[^;:()]+)/);
+    if (m) o = m[1].trim();
+  } else if (o.startsWith("Origen múltiple")) {
+    o = o.split(/[;:]/, 1)[0].trim();
+  } else {
+    o = o.split(/[;:/]/, 1)[0].trim();
+    o = o.split(" (")[0].trim();
+  }
+  if (o.length > 46) o = o.slice(0, 43).trimEnd() + "…";
+  return capitaliza(o);
+}
+
 /** Todas las letras que tienen al menos una ficha — alimenta /letra/ y el hub. */
 export const LETRAS_CON_FICHA: string[] = Array.from(
   new Set(FICHAS.map((n) => letraDe(n)))

@@ -6,6 +6,7 @@ import {
   LETRAS_CON_FICHA,
   displayName,
   miles,
+  origenCorto,
   sexoDe,
   significados,
   topPorAnio,
@@ -136,29 +137,45 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Fichas destacadas */}
+      {/* Fichas destacadas (12) + enlace a todas: pocas cards precargadas = indexables y HTML liviano;
+          "cargar más" con JS ocultaría contenido al rastreo y 500 cards en home inflaba CWV y diluía el crawl budget */}
       <section className="mb-10" aria-labelledby="fichas">
-        <h2 id="fichas" className="font-display mb-4 text-2xl font-bold">
-          Fichas con significado y tendencia
-        </h2>
-        <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-          {FICHAS.map((n) => {
-            const sig = significados[n];
-            return (
-              <li key={n}>
-                <Link
-                  href={`/nombre/${n.toLowerCase()}/`}
-                  className="card card-hover block"
-                >
-                  <span className="font-display text-lg font-bold">{displayName(n)}</span>
-                  <span className="mt-0.5 block text-xs text-[#6B6558] dark:text-[#9BA89F]">
-                    {sexoDe(n) === "M" ? "Masculino" : "Femenino"} · {sig?.origen ?? "—"}
-                  </span>
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+        <div className="mb-4 flex items-baseline justify-between">
+          <h2 id="fichas" className="font-display text-2xl font-bold">
+            Fichas con significado y tendencia
+          </h2>
+          <Link href="/nombres-por-letra/" className="text-sm font-medium text-[#0F766E] hover:underline dark:text-[#5EEAD4]">
+            Ver todas las fichas →
+          </Link>
+        </div>
+        {(() => {
+          const dM = FICHAS.filter((n) => sexoDe(n) === "M").slice(0, 6);
+          const dF = FICHAS.filter((n) => sexoDe(n) === "F").slice(0, 6);
+          const destacadas = dM.flatMap((n, i) => [n, dF[i]]).filter(Boolean);
+          return (
+            <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+              {destacadas.map((n) => {
+                const sig = significados[n];
+                return (
+                  <li key={n}>
+                    <Link
+                      href={`/nombre/${n.toLowerCase()}/`}
+                      className="card card-hover block"
+                    >
+                      <span className="font-display text-lg font-bold">{displayName(n)}</span>
+                      <span className="mt-0.5 block text-xs text-[#6B6558] dark:text-[#9BA89F]">
+                        {sexoDe(n) === "M" ? "Masculino" : "Femenino"} · {origenCorto(sig?.origen ?? "")}
+                      </span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          );
+        })()}
+        <p className="mt-3 text-sm text-[#6B6558] dark:text-[#9BA89F]">
+          El origen completo y el significado curado están en cada ficha.
+        </p>
       </section>
 
       {/* Guías */}

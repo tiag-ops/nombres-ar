@@ -13,6 +13,7 @@ import {
   hermanitos,
   letraDe,
   nombrePorSlug,
+  origenCorto,
   posicion,
   record,
   serie,
@@ -150,6 +151,16 @@ describe("display y slugs", () => {
 
   it("tildes.json cubre todo el top-500 de frecuentes", () => {
     expect(Object.keys(tildes).length).toBeGreaterThanOrEqual(500);
+  });
+
+  it("origenCorto(): versión corta para cards (sin separadores ni excesos)", () => {
+    expect(origenCorto("Hebreo → Español")).toBe("Hebreo → Español");
+    expect(origenCorto("Latín")).toBe("Latín");
+    expect(origenCorto("Árabe; del árabe أُمَّة…")).toBe("Árabe");
+    expect(origenCorto("Italiano / variante de María")).toBe("Italiano");
+    expect(origenCorto("Origen múltiple: forma portuguesa…")).toBe("Origen múltiple");
+    const largo = origenCorto("Germánico; de la raíz *berht, «brillante», emparentado con el nombre Adalberto…");
+    expect(largo.length).toBeLessThanOrEqual(46);
   });
 });
 
