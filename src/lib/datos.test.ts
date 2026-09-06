@@ -61,8 +61,8 @@ describe("consistencia del dataset", () => {
     for (const n of dataset.nombres) expect(n.total).toBeGreaterThanOrEqual(100);
   });
 
-  it("los 500 top-500 tienen significado y sexo", () => {
-    expect(FICHAS.length).toBe(500);
+  it("los 560 top-560 tienen significado y sexo", () => {
+    expect(FICHAS.length).toBe(560);
     for (const n of FICHAS) {
       expect(significados[n], `sin significado: ${n}`).toBeDefined();
       expect(sexoDe(n), `sin sexo: ${n}`).not.toBeNull();
@@ -149,8 +149,10 @@ describe("display y slugs", () => {
     expect(displayName("Maia")).toBe("Maia");
   });
 
-  it("tildes.json cubre todo el top-500 de frecuentes", () => {
-    expect(Object.keys(tildes).length).toBeGreaterThanOrEqual(500);
+  it("tildes.json cubre las tildes normativas de las fichas (top-560)", () => {
+    expect(Object.keys(tildes).length).toBeGreaterThanOrEqual(525);
+    // canary nueva ficha 501-560: Fatima → Fátima
+    expect(displayName("Fatima")).toBe("Fátima");
   });
 
   it("origenCorto(): versión corta para cards (sin separadores ni excesos)", () => {
@@ -197,7 +199,7 @@ describe("SEO por artículo (FAQ y letras)", () => {
   });
 
   it("LETRAS_DISPONIBLES: cada nombre del dataset mapea a una letra de la lista", () => {
-    for (const n of dataset.nombres.slice(0, 500)) {
+    for (const n of dataset.nombres.slice(0, 560)) {
       const l = n.nombre.normalize("NFD").replace(/[\u0300-\u036f]/g, "")[0].toLowerCase();
       expect(LETRAS_DISPONIBLES).toContain(l);
     }
