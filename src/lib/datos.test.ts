@@ -61,8 +61,8 @@ describe("consistencia del dataset", () => {
     for (const n of dataset.nombres) expect(n.total).toBeGreaterThanOrEqual(100);
   });
 
-  it("los 680 top-680 tienen significado y sexo", () => {
-    expect(FICHAS.length).toBe(680);
+  it("los 740 top-740 tienen significado y sexo", () => {
+    expect(FICHAS.length).toBe(740);
     for (const n of FICHAS) {
       expect(significados[n], `sin significado: ${n}`).toBeDefined();
       expect(sexoDe(n), `sin sexo: ${n}`).not.toBeNull();
@@ -199,7 +199,7 @@ describe("SEO por artículo (FAQ y letras)", () => {
   });
 
   it("LETRAS_DISPONIBLES: cada nombre del dataset mapea a una letra de la lista", () => {
-    for (const n of dataset.nombres.slice(0, 680)) {
+    for (const n of dataset.nombres.slice(0, 740)) {
       const l = n.nombre.normalize("NFD").replace(/[\u0300-\u036f]/g, "")[0].toLowerCase();
       expect(LETRAS_DISPONIBLES).toContain(l);
     }
