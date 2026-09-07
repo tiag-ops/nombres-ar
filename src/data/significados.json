@@ -8541,5 +8541,365 @@
     "significado": "'Pequeña violeta' (italiano, diminutivo de 'Viola'; latín 'viola' = violeta, la flor)",
     "nota": "Forma italiana de Violeta, popularizada por la ópera 'La traviata' de Verdi (su protagonista se llama Violetta Valéry). Lleva el nombre la famosa 'Violeta' del cuento 'La Bella y la Bestia'.",
     "santoral": ""
+  },
+  "Casiano": {
+    "origen": "Latín (romano)",
+    "significado": "«perteneciente a la gens Casia», del latín Cassianus, derivado del nombre de la gens romana Cassius",
+    "nota": "Nombre de un mártir cristiano del siglo IV, San Casiano de Imola, maestro asesinado por sus propios alumnos. De uso tradicional en España e Italia, aunque hoy poco frecuente.",
+    "santoral": "13 de agosto"
+  },
+  "Dalia": {
+    "origen": "Latín moderno / sueco (nombre de flor)",
+    "significado": "«flor de dalia», en honor al botánico sueco Anders Dahl (del latín Dahlia)",
+    "nota": "Nombre floral difundido en el siglo XIX, cuando la dalia se popularizó en Europa. En México la dalia es la flor nacional; no tiene tradición santoral.",
+    "santoral": ""
+  },
+  "Kayla": {
+    "origen": "Inglés (creación moderna)",
+    "significado": "«coronada de laurel» (por Kay, diminutivo de Katherine) o «¿quién como Dios?» (como forma de Michaela)",
+    "nota": "Nombre inventado en el siglo XX y popularizado en Estados Unidos a partir de los años 1960. No tiene santo propio.",
+    "santoral": ""
+  },
+  "Irma": {
+    "origen": "Germánico (alto alemán antiguo irm(i) = «entero, universal, grande»)",
+    "significado": "«universal, completa, grande» (raíz germánica irm)",
+    "nota": "Forma corta de nombres germánicos como Irmgard o Irmintrud. Se popularizó en el mundo hispano durante el siglo XX; sin santo de referencia claro.",
+    "santoral": ""
+  },
+  "Pascual": {
+    "origen": "Latín (paschalis), del hebreo pésaj",
+    "significado": "«relativo a la Pascua, nacido en Pascua» (del latín paschalis, del hebreo pesach «paso»)",
+    "nota": "Nombre cristiano que se daba a quienes nacían en el tiempo pascual. Su gran referente es San Pascual Bailón, patrono de los cocineros.",
+    "santoral": "17 de mayo"
+  },
+  "Levi": {
+    "origen": "Hebreo (לֵוִי)",
+    "significado": "«unido, adjunto» (del hebreo lavah «unir, acompañar»)",
+    "nota": "Tercer hijo de Jacob y Lea en la Biblia y antepasado de los levitas, tribu sacerdotal de Israel. Muy usado desde el siglo XIX en el mundo anglosajón.",
+    "santoral": ""
+  },
+  "Vita": {
+    "origen": "Latín",
+    "significado": "«vida» (del latín vita)",
+    "nota": "Nombre femenino latino de uso medieval que hoy se asocia también a la escritora Vita Sackville-West. No tiene tradición santoral difundida.",
+    "santoral": ""
+  },
+  "Pier": {
+    "origen": "Italiano (forma corta de Piero/Pietro)",
+    "significado": "«piedra, roca» (del griego pétros, nombre del apóstol Simón Pedro)",
+    "nota": "Forma abreviada italiana, muy frecuente en nombres compuestos como Pier Paolo. Equivale a Pedro y celebra su santo con San Pedro.",
+    "santoral": "29 de junio"
+  },
+  "Tihago": {
+    "origen": "Portugués (variante brasileña de Tiago)",
+    "significado": "«suplantador» o «el que toma por el talón» (del hebreo Yaacov, Jacobo, fuente de Tiago/Santiago)",
+    "nota": "Variante gráfica brasileña de Thiago, forma de Tiago/Santiago, muy popular en Brasil y de creciente uso en Argentina. Conserva la misma raíz bíblica.",
+    "santoral": "25 de julio"
+  },
+  "Alen": {
+    "origen": "Celta/incierto (variante de Alan)",
+    "significado": "«pequeña roca» o «armonioso, bello» (de Alan, del bretón/celta, con etimología discutida)",
+    "nota": "Variante ortográfica de Alan usada en países eslavos e hispanohablantes. La etimología de Alan es debatida: algunos la vinculan al bretón «alun» (armonía) o a un santo bretón.",
+    "santoral": ""
+  },
+  "Rosana": {
+    "origen": "persa",
+    "significado": "\"la brillante, la luminosa\" (persa roshan/raushan 'luz, brillante'; forma de Roshanak, Roxana)",
+    "nota": "Variante de Roxana, la esposa de Alejandro Magno, cuyo nombre persa significaba 'la brillante'; en español también se lee a veces como unión de Rosa y Ana. No tiene santo propio en el calendario romano.",
+    "santoral": ""
+  },
+  "Flavia": {
+    "origen": "latín",
+    "significado": "\"rubia, de cabellos dorados\" (latín flavus 'rubio, amarillo dorado'; de la gens Flavia)",
+    "nota": "Nombre de la gens Flavia, la dinastía de los emperadores Vespasiano, Tito y Domiciano. En Argentina convive con la forma Florencia y su festividad más recordada es la de Santa Flavia Domitila.",
+    "santoral": "7 de mayo (Santa Flavia Domitila, mártir romana)"
+  },
+  "Nahomy": {
+    "origen": "hebreo",
+    "significado": "\"mi deleite, la agradable\" (hebreo no'omi, de no'am 'dulzura, deleite')",
+    "nota": "Grafía moderna del nombre bíblico Noemí (Naomi), la suegra de Rut, difundida por la influencia anglófona y común en comunidades evangélicas de América Latina. No se registra santo con esta forma.",
+    "santoral": ""
+  },
+  "Briseida": {
+    "origen": "griego",
+    "significado": "\"hija de Brises\" (griego Brisēis, patronímico de Brises)",
+    "nota": "En la Ilíada, Briseida es la cautiva por la que se enfrentan Aquiles y Agamenón durante la guerra de Troya. Su sentido es patronímico, es decir, indica filiación, y no tiene santo en el santoral católico.",
+    "santoral": ""
+  },
+  "Cinthia": {
+    "origen": "griego",
+    "significado": "\"la del monte Cinto\" (griego Kynthia, de Kynthos, monte de la isla de Delos; epíteto de Artemisa)",
+    "nota": "Epíteto de la diosa Artemisa, que según el mito nació en el monte Cinto de Delos; en latín pasó como Cynthia. La grafía Cinthia es propia de Hispanoamérica y no cuenta con santoral católico establecido.",
+    "santoral": ""
+  },
+  "Mailyn": {
+    "origen": "inglés",
+    "significado": "\"amada de Dios, la muy querida\" (combinación de Mary 'María' con el sufijo -lyn, como en Marilyn)",
+    "nota": "Variante de Marilyn, nombre creado en Estados Unidos y popularizado por la actriz Marilyn Monroe; Mailyn reproduce en español la pronunciación inglesa. No tiene santo propio.",
+    "santoral": ""
+  },
+  "Mical": {
+    "origen": "hebreo",
+    "significado": "\"arroyo, riachuelo\" (hebreo mikhal, de mīkāl 'corriente de agua'); también asociado con \"¿quién como Dios?\" (mikha'el)",
+    "nota": "En la Biblia, Mical (Michal) es hija del rey Saúl y primera esposa del rey David. Su etimología es discutida: unos la leen 'arroyo' y otros la emparentan con Miguel y su pregunta retórica '¿quién como Dios?'.",
+    "santoral": ""
+  },
+  "Bartolome": {
+    "origen": "arameo",
+    "significado": "\"hijo de Tolmay\" (arameo bar 'hijo de' + Tolmay, nombre propio; por extensión 'hijo del labrador')",
+    "nota": "Nombre del apóstol Bartolomé, a quien la tradición identifica con Natanael, amigo de Felipe en el Evangelio. En Argentina se usa con frecuencia la forma sin tilde y el hipocorístico Bartolo.",
+    "santoral": "24 de agosto (San Bartolomé, apóstol)"
+  },
+  "Scarlett": {
+    "origen": "inglés",
+    "significado": "\"la que viste de escarlata, rojo brillante\" (inglés scarlet, del francés antiguo escarlate, paño fino de color rojo)",
+    "nota": "Apellido ocupacional del comerciante de paños escarlata que pasó a usarse como nombre de pila; se popularizó mundialmente por el personaje Scarlett O'Hara de 'Lo que el viento se llevó'. No tiene santo.",
+    "santoral": ""
+  },
+  "Yulian": {
+    "origen": "latín",
+    "significado": "\"perteneciente a la gens Julia, descendiente de Julio\" (latín Iulianus, de Iulius, nombre de la gens de Julio César)",
+    "nota": "Grafía eslava y romaní de Julián, nombre de la gens Iulia romana. En el santoral se asocia a San Julián, cuya fecha más difundida es el 28 de enero.",
+    "santoral": "28 de enero (San Julián de Cuenca, obispo)"
+  },
+  "Angeline": {
+    "origen": "Griego (a través del latín y el francés)",
+    "significado": "«mensajera, la que anuncia» (del griego 'ángelos', mensajero)",
+    "nota": "Diminutivo de Angela, difundido en el mundo anglófono y francófono como variante de Angelina. Llegó al uso popular español sobre todo por la literatura y el cine.",
+    "santoral": "27 de enero (Santa Angela)"
+  },
+  "Salvatore": {
+    "origen": "Latín (a través del italiano)",
+    "significado": "«salvador» (del latín 'salvator')",
+    "nota": "Forma italiana de Salvador, muy difundida en la diáspora italiana. Su uso religioso remite a Cristo como Salvador, pero hoy se usa también fuera de ese contexto.",
+    "santoral": "18 de marzo (San Salvador de Horta)"
+  },
+  "Marilu": {
+    "origen": "Español (compuesto hipocorístico de María y Luisa)",
+    "significado": "«la elegida + guerrera ilustre» (del hebreo 'Maryam' y del germánico 'hlod', famoso + 'wig', batalla)",
+    "nota": "Unión de María y Luisa como nombre compuesto afectivo, típico del mundo hispanohablante. Suele festejarse en las fechas de María, aunque algunas variantes lo asocian a Santa Luisa.",
+    "santoral": "15 de agosto (Asunción de la Virgen María)"
+  },
+  "Victorino": {
+    "origen": "Latín",
+    "significado": "«pequeño vencedor, victorioso» (del latín 'victor', vencedor, más el sufijo '-inus')",
+    "nota": "Diminutivo latino de Víctor, extendido en la Edad Media por el culto a varios santos del mismo nombre. Sigue siendo un nombre tradicional en España y Latinoamérica.",
+    "santoral": "28 de abril (San Victorino)"
+  },
+  "Basthian": {
+    "origen": "Latín (a través del griego; grafía alternativa de Bastian)",
+    "significado": "«venerable, augusto» (del griego 'sebastos', venerable, raíz de 'Sebastianus')",
+    "nota": "Grafía creativa de Bastian, hipocorístico alemán de Sebastián, popularizado por el protagonista de «La historia interminable». La 'h' no altera su pronunciación ni su origen.",
+    "santoral": "20 de enero (San Sebastián)"
+  },
+  "Samael": {
+    "origen": "Hebreo",
+    "significado": "«veneno de Dios» (del hebreo 'sam', veneno, y 'El', Dios)",
+    "nota": "En la tradición judía es un arcángel vinculado a la muerte y a la acusación, identificado a veces con Satán; no es un nombre cristiano ni tiene santo. Su carga simbólica fuerte lo vuelve un nombre poco común.",
+    "santoral": ""
+  },
+  "Safira": {
+    "origen": "Incierto (posible árabe o hebreo, emparentado con el griego 'sappheiros')",
+    "significado": "«zafiro, piedra preciosa» (del árabe 'zafir' o del hebreo 'sappir', zafiro)",
+    "nota": "Variante de Zafira popular en Brasil, Portugal y comunidades hispanas; a veces se asocia con la Safira bíblica, esposa de Ananías. El significado de gema preciosa es el que prevalece en las fuentes.",
+    "santoral": ""
+  },
+  "Julieth": {
+    "origen": "Latín (a través del inglés)",
+    "significado": "«de la gens Julia, descendiente de Julio» (del latín 'Iulius', nombre de la familia romana, derivado de 'Iuppiter', Júpiter)",
+    "nota": "Grafía alternativa de Juliet, forma inglesa de Julieta, diminutivo de Julia. En Hispanoamérica la variante con 'th' se consolidó como nombre independiente, popularizado por la literatura romántica.",
+    "santoral": "22 de mayo (Santa Julia de Córcega)"
+  },
+  "Reyna": {
+    "origen": "Español (del latín)",
+    "significado": "«reina» (del latín 'regina')",
+    "nota": "Variante gráfica de Reina muy usada en el mundo hispano y anglo, a menudo con trasfondo mariano (María Reina). Su asociación directa con el título real la hace sencilla de interpretar.",
+    "santoral": "7 de septiembre (Santa Regina)"
+  },
+  "Evelina": {
+    "origen": "Hebreo (a través del francés y el inglés)",
+    "significado": "«vida, la que da vida» (del hebreo 'Havva', Eva), aunque algunas fuentes la relacionan con el germánico 'aval'",
+    "nota": "Diminutivo de Eva, difundido por la novela «Evelina» de Fanny Burney (1778). Como diminutivo de Eva mantiene el vínculo con la madre bíblica de la humanidad.",
+    "santoral": "19 de diciembre (onomástica de Eva)"
+  },
+  "Meredith": {
+    "origen": "Galés (céltico)",
+    "significado": "«gran señor» o «príncipe magnífico» (de mawredd, 'grandeza, magnificencia' + iudd, 'señor, príncipe')",
+    "nota": "Deriva del galés Maredudd/Meredydd, nombre muy difundido en Gales durante la Edad Media. Desde mediados del siglo XX se usa más para niñas en los países angloparlantes, aunque en Gales sigue siendo masculino.",
+    "santoral": ""
+  },
+  "Nataniel": {
+    "origen": "Hebreo",
+    "significado": "«Dios ha dado» o «don de Dios» (de natan, 'dio, dar' + El, 'Dios')",
+    "nota": "Nombre bíblico del discípulo de Caná que Jesús saludó como «verdadero israelita»; la tradición lo identifica con el apóstol San Bartolomé, por lo que su onomástica se celebra junto a él.",
+    "santoral": "24 de agosto (San Bartolomé, apóstol, con quien se identifica a Natanael)"
+  },
+  "Ahinoa": {
+    "origen": "Vasco (toponímico)",
+    "significado": "«la de la tierra fértil» o «la elegida», asociado a María (por la advocación de la Virgen de Ainhoa, de la localidad homónima del País Vasco francés)",
+    "nota": "Proviene del nombre del pueblo labortano de Ainhoa (Lapurdi, Francia), donde se venera a la Virgen de Ainhoa; «Ahinoa» es una variante gráfica sin etimología directa en euskera, por lo que su significado se asocia al santuario mariano.",
+    "santoral": "9 de septiembre (Nuestra Señora de Ainhoa); también se celebra el 15 de agosto (Asunción de María)"
+  },
+  "Maria del rosario": {
+    "origen": "Hebreo (María) + español (advocación mariana)",
+    "significado": "«señora del Rosario» (María < hebreo Miryam, etimología incierta; 'del Rosario' alude a la oración del rosario, del latín rosarium, 'rosaleda')",
+    "nota": "Nombre compuesto mariano muy popular en Hispanoamérica, en honor a Nuestra Señora del Rosario, patrona de la Orden de Predicadores. Su fiesta fue instaurada por San Pío V tras la victoria de Lepanto en 1571.",
+    "santoral": "7 de octubre (Nuestra Señora del Rosario)"
+  },
+  "Waldemar": {
+    "origen": "Germánico (con raíz eslava, relacionado con Vladimir)",
+    "significado": "«gobernante famoso» o «el que rige con gloria» (de wald, 'gobierno, poder' + meri, 'famoso, ilustre')",
+    "nota": "Forma germánica emparentada con el eslavo Vladimir, introducida en Escandinavia por el rey danés del siglo XII Valdemar, que lo recibió en honor a un antepasado de su madre ucraniana. Lo llevaron numerosos reyes del norte de Europa.",
+    "santoral": ""
+  },
+  "Agata": {
+    "origen": "Griego",
+    "significado": "«buena», «bondadosa» (del griego agathós, 'bueno')",
+    "nota": "Forma de Santa Ágata (Águeda) de Catania, virgen y mártir del siglo III durante la persecución de Decio; es patrona de las enfermeras y de las mujeres con cáncer de mama. Se venera en las tradiciones católica, ortodoxa y anglicana.",
+    "santoral": "5 de febrero (Santa Águeda/Ágata de Catania)"
+  },
+  "Jefferson": {
+    "origen": "Inglés (apellido patronímico)",
+    "significado": "«hijo de Jeffrey» (Jeffrey deriva del germánico Godfrey/Gottfried, de god, 'Dios' + frid, 'paz': 'paz de Dios')",
+    "nota": "Apellido inglés documentado desde la Baja Edad Media que pasó a usarse como nombre de pila, impulsado por la figura de Thomas Jefferson, tercer presidente de Estados Unidos. Es frecuente como nombre masculino en América Latina.",
+    "santoral": ""
+  },
+  "Malek": {
+    "origen": "Árabe (raíz semítica compartida con el hebreo)",
+    "significado": "«rey», «soberano» (del árabe málik, ملك; cognado del hebreo mélekh, 'rey')",
+    "nota": "Variante de Malik, que en el islam es uno de los 99 nombres de Dios («el Rey»). Como nombre propio masculino está muy extendido en el mundo árabe y musulmán, y también aparece, con la forma Melech, en la tradición judía.",
+    "santoral": ""
+  },
+  "Henry": {
+    "origen": "Germánico (forma inglesa de Enrique)",
+    "significado": "«jefe del hogar», «señor de la casa» (de haim, 'casa, hogar' + ric, 'poder, gobernante')",
+    "nota": "Forma inglesa de Enrique, difundida por los normandos a partir del francés Henri. En el santoral se asocia a San Enrique II, emperador del Sacro Imperio Romano Germánico, recordado como modelo de justicia en el gobierno.",
+    "santoral": "13 de julio (San Enrique II, emperador)"
+  },
+  "Nazaret": {
+    "origen": "Hebreo (toponímico)",
+    "significado": "«rama», «renuevo», «brote» (del hebreo netser, נצר; otra hipótesis: 'guardián, protector' del arameo, etimología debatida)",
+    "nota": "Es el nombre de la ciudad de Galilea donde se crió Jesús; la lectura más aceptada lo vincula con la profecía del renuevo de la casa de David (Is 11,1). Se usa como nombre propio, sobre todo femenino, en países de habla hispana, sin santo propio en el calendario.",
+    "santoral": ""
+  },
+  "Zulema": {
+    "origen": "Árabe",
+    "significado": "\"la que está en paz\" (raíz árabe zalama, 'paz'); también se interpreta como 'saludable'",
+    "nota": "Nombre femenino difundido en el mundo hispano a través de la ópera homónima y de la literatura árabe medieval, con uso estable en España y Argentina.",
+    "santoral": ""
+  },
+  "Gaetano": {
+    "origen": "Italiano (latín)",
+    "significado": "\"natural de Gaeta\" (del latín Caietanus, gentilicio de la ciudad italiana de Gaeta)",
+    "nota": "Forma italiana de Cayetano, procedente del nombre de la ciudad portuaria de Gaeta, en el Lacio. Llegó a la Argentina con la inmigración italiana.",
+    "santoral": "7 de agosto"
+  },
+  "Karla": {
+    "origen": "Germánico",
+    "significado": "\"mujer fuerte y libre\" (del germánico karl, 'hombre libre' o 'fuerte')",
+    "nota": "Variante femenina de Karl con grafía en K, adaptada de Carla. Muy popular en Hispanoamérica desde fines del siglo XX.",
+    "santoral": ""
+  },
+  "Dalmiro": {
+    "origen": "Germánico",
+    "significado": "\"de nobleza insigne\" (del germánico athal, 'noble', y miru, 'famoso')",
+    "nota": "Hipocorístico de Edelmiro, muy usado en la alta Edad Media europea; algunos autores le atribuyen además raíces eslavas. Lo llevó Edelmiro Farrell, militar y presidente argentino.",
+    "santoral": ""
+  },
+  "Aukan": {
+    "origen": "Mapuche (mapudungun)",
+    "significado": "\"guerrero\" (del mapudungun aukan o awkán, 'luchar', 'guerrear')",
+    "nota": "Nombre de origen mapuche difundido en el sur de Chile y la Argentina; evoca la valentía, la resistencia y la defensa del territorio.",
+    "santoral": ""
+  },
+  "Otoniel": {
+    "origen": "Hebreo",
+    "significado": "\"león de Dios\" (del hebreo othni, 'león' o 'fuerza', y el, 'Dios')",
+    "nota": "Otoniel u Otniel fue el primer juez de Israel según el libro bíblico de los Jueces, quien liberó al pueblo de la opresión de Aram.",
+    "santoral": ""
+  },
+  "Dimas": {
+    "origen": "Incierto",
+    "significado": "sin etimología consensuada; la tradición cristiana lo asocia al \"buen ladrón\" crucificado junto a Jesús",
+    "nota": "El Evangelio no menciona su nombre: el de Dimas proviene de tradiciones apócrifas. Es uno de los santos más venerados del santoral popular.",
+    "santoral": "25 de marzo"
+  },
+  "Mirian": {
+    "origen": "Hebreo",
+    "significado": "\"la amada\" (del hebreo maryam, también interpretado como 'la deseada' o 'estrella del mar')",
+    "nota": "Variante de Miriam, forma hebrea de María, hermana de Moisés en el Antiguo Testamento. Se celebra junto a la Asunción de la Virgen.",
+    "santoral": "15 de agosto"
+  },
+  "Nadin": {
+    "origen": "Incierto",
+    "significado": "\"rocío\" o \"tierna\" (del árabe nadi/nadá, 'rocío'); en contexto eslavo, 'esperanza' (hipocorístico de Nadezhda)",
+    "nota": "Nombre multiorigen: se usa en el mundo árabe como variante de Nadia y en Europa del Este como diminutivo de Nadezhda. En Argentina circula como variante moderna de Nadin y Nadine.",
+    "santoral": ""
+  },
+  "Darien": {
+    "origen": "Persa (vía griego y latín)",
+    "significado": "\"el que posee el bien\" (del persa antiguo Dārayavauš, 'el que sostiene el bien')",
+    "nota": "Variante de Darío, difundida en inglés y español; coincide también con el topónimo panameño Darién (del idioma cueva), lo que refuerza su uso en Hispanoamérica.",
+    "santoral": ""
+  },
+  "Jezabel": {
+    "origen": "Hebreo",
+    "significado": "«Dios es exaltado» (del hebreo 'izevel, de incierta etimología)",
+    "nota": "Nombre bíblico: fue la esposa del rey Ajab de Israel (1 Reyes 16-21) y símbolo de idolatría y maldad. Su uso moderno reivindica la imagen de una mujer de carácter fuerte.",
+    "santoral": ""
+  },
+  "Kaled": {
+    "origen": "Árabe",
+    "significado": "«Eterno, inmortal» (del árabe jālid, raíz kh-l-d: permanecer, durar)",
+    "nota": "Variante gráfica de Jalid o Khalid, nombre muy difundido en el mundo musulmán y popularizado en Argentina. No tiene santoral cristiano.",
+    "santoral": ""
+  },
+  "Madelein": {
+    "origen": "Hebreo (vía griego y francés)",
+    "significado": "«Natural de Magdala, la de la torre» (del hebreo migdál, torre; griego Magdalēnḗ)",
+    "nota": "Grafía inglesa de Madeleine, forma francesa de Magdalena, en referencia a María Magdalena, discípula de Jesús. Es una variante poco frecuente en Argentina.",
+    "santoral": "22 de julio (Santa María Magdalena)"
+  },
+  "Lauriano": {
+    "origen": "Latín",
+    "significado": "«Coronado de laurel, victorioso» (del latín laurus, laurel, relacionado con Laurentius)",
+    "nota": "Deriva de la familia de los Laurentii, como Lorenzo. San Lauriano de Vatan fue un mártir del siglo IV venerado en Francia.",
+    "santoral": "4 de julio (San Lauriano de Vatan)"
+  },
+  "Yuri": {
+    "origen": "Ruso (eslavo)",
+    "significado": "«Agricultor, el que trabaja la tierra» (del griego geōrgós; forma rusa de Jorge)",
+    "nota": "Yuri (Юрий) es la adaptación rusa de Jorge, difundida por el cosmonauta Yuri Gagarin. En japonés existe un homónimo femenino que significa «lirio».",
+    "santoral": ""
+  },
+  "Lino": {
+    "origen": "Latín (posible influencia griega)",
+    "significado": "«Lino, hilo de lino» (del latín linum; también del griego Línos, personaje mitológico)",
+    "nota": "Según la tradición fue el segundo papa, sucesor directo de san Pedro, por lo que se lo celebra como santo y mártir. Se usa también como hipocorístico de nombres terminados en -lino.",
+    "santoral": "23 de septiembre (San Lino, papa y mártir)"
+  },
+  "Anton": {
+    "origen": "Latín",
+    "significado": "«Inestimable, digno de aprecio» (del gentilicio romano Antonius, de etimología incierta)",
+    "nota": "Forma germánica y eslava de Antonio; en español medieval se abreviaba como Antón. Se asocia tradicionalmente con San Antonio Abad, celebrado el 17 de enero.",
+    "santoral": "17 de enero (San Antonio Abad)"
+  },
+  "Paulino": {
+    "origen": "Latín",
+    "significado": "«Pequeño, humilde» (del latín Paulus, pequeño, con sufijo -inus)",
+    "nota": "Deriva de Paulus, como Pablo, y se difundió por san Paulino de Nola, obispo y poeta del siglo IV. Otras fechas de santoral alternativas son el 4 de mayo.",
+    "santoral": "22 de junio (San Paulino de Nola, obispo)"
+  },
+  "Sherlyn": {
+    "origen": "Inglés (nombre moderno)",
+    "significado": "«Querida, amada» (del francés chérie; combinación moderna de Cheryl/Sheryl y -lyn)",
+    "nota": "Creación onomástica del siglo XX de origen anglosajón, sin raíz etimológica clásica, que se hizo popular en Latinoamérica y España.",
+    "santoral": ""
+  },
+  "Amiel": {
+    "origen": "Hebreo",
+    "significado": "«Pueblo de Dios» (del hebreo am, pueblo, y El, Dios: 'Ammi'el)",
+    "nota": "Nombre bíblico del Antiguo Testamento: Amiel, hijo de Gemalí, fue uno de los doce espías enviados a Canaán (Números 13,12). Se usa en comunidades judías y cristianas, más en su forma Amiel que como santo propio.",
+    "santoral": ""
   }
 }
