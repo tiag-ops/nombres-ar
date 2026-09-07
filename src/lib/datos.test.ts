@@ -18,6 +18,7 @@ import {
   record,
   serie,
   sexoDe,
+  slug,
   significados,
   tasaPorMil,
   tildes,
@@ -61,8 +62,8 @@ describe("consistencia del dataset", () => {
     for (const n of dataset.nombres) expect(n.total).toBeGreaterThanOrEqual(100);
   });
 
-  it("los 860 top-860 tienen significado y sexo", () => {
-    expect(FICHAS.length).toBe(860);
+  it("los 920 top-920 tienen significado y sexo", () => {
+    expect(FICHAS.length).toBe(920);
     for (const n of FICHAS) {
       expect(significados[n], `sin significado: ${n}`).toBeDefined();
       expect(sexoDe(n), `sin sexo: ${n}`).not.toBeNull();
@@ -199,7 +200,7 @@ describe("SEO por artículo (FAQ y letras)", () => {
   });
 
   it("LETRAS_DISPONIBLES: cada nombre del dataset mapea a una letra de la lista", () => {
-    for (const n of dataset.nombres.slice(0, 860)) {
+    for (const n of dataset.nombres.slice(0, 920)) {
       const l = n.nombre.normalize("NFD").replace(/[\u0300-\u036f]/g, "")[0].toLowerCase();
       expect(LETRAS_DISPONIBLES).toContain(l);
     }
@@ -226,6 +227,6 @@ function sexoMapCopy(): Record<string, string> {
 
 describe("sanity general", () => {
   it("FICHAS están todas en el dataset", () => {
-    for (const n of FICHAS) expect(nombrePorSlug(n.toLowerCase())).toBeDefined();
+    for (const n of FICHAS) expect(nombrePorSlug(slug(n))).toBeDefined();
   });
 });
