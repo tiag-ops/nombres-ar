@@ -211,7 +211,7 @@ export function hermanitos(n: NombreM, k = 3): { nombre: string; r: number }[] {
 export const FICHAS = dataset.nombres
   .slice()
   .sort((a, b) => b.total - a.total)
-  .slice(0, 2360)
+  .slice(0, 2420)
   .map((n) => n.nombre)
   .filter((n) => significados[n]);
 
