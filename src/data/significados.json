@@ -6741,5 +6741,365 @@
     "significado": "\"bella, hermosa\" (árabe jamīla, femenino de jamīl, 'bello')",
     "nota": "Variante hispanoamericana de Yamila/Yamile, popular en México, Centroamérica y el Cono Sur. No tiene santo asociado por ser forma moderna sin tradición cristiana.",
     "santoral": ""
+  },
+  "Ivanna": {
+    "origen": "Hebreo (variante femenina de Iván)",
+    "significado": "«Dios es misericordioso» (del hebreo Yohanan, יוֹחָנָן, «Yahvé ha sido misericordioso»)",
+    "nota": "Variante eslava e internacional de Ivana, femenino de Iván. Adquirió gran popularidad en la Argentina y otros países hispanohablantes desde fines del siglo XX.",
+    "santoral": ""
+  },
+  "Paris": {
+    "origen": "Griego",
+    "significado": "Nombre mitológico, «príncipe de Troya» (del griego Páris, Πάρις; significado sin consenso)",
+    "nota": "En español normativo se escribe París, con tilde por ser aguda terminada en -s. Célebre por el príncipe troyano del mito que desató la guerra de Troya; también es el nombre de la capital francesa, con etimología independiente (del pueblo galo Parisii).",
+    "santoral": ""
+  },
+  "Celena": {
+    "origen": "Griego (variante de Selena/Selene)",
+    "significado": "«Luna» (del griego Selene, Σελήνη, diosa de la Luna); también se vincula al latín caelum, «cielo»",
+    "nota": "Grafía alternativa de Selena de uso frecuente en América Latina. En ocasiones se la asocia a Celina, del latín caelum («cielo»).",
+    "santoral": ""
+  },
+  "Yanela": {
+    "origen": "Hebreo (variante de Janet)",
+    "significado": "«Dios es misericordioso» (a través de Janet, del hebreo Yohanan, יוֹחָנָן)",
+    "nota": "Nombre de creación moderna muy difundido en la Argentina y Uruguay; suele considerarse variante de Janet (femenino de Juan). No tiene etimología antigua documentada propia.",
+    "santoral": ""
+  },
+  "Salomon": {
+    "origen": "Hebreo",
+    "significado": "«Pacífico» (del hebreo Shelomoh, שְׁלֹמֹה, derivado de shalom, «paz»)",
+    "nota": "En español normativo se escribe Salomón, con tilde por aguda terminada en -n. Fue rey de Israel e hijo de David en la Biblia, célebre por su sabiduría.",
+    "santoral": ""
+  },
+  "Elif": {
+    "origen": "Turco (del árabe alif)",
+    "significado": "«Amable, gentil»; también alude a la primera letra del alfabeto árabe (alif, أ)",
+    "nota": "Nombre femenino muy común en Turquía. El alif es la primera letra del alfabeto árabe, símbolo de inicio y de unidad en la tradición islámica.",
+    "santoral": ""
+  },
+  "Brahian": {
+    "origen": "Incierto (irlandés/céltico, grafía de Brian)",
+    "significado": "Sin consenso; se ha asociado al céltico antiguo bre, «colina» (del irlandés Brian, etimología debatida)",
+    "nota": "Grafía fonética de Brian muy usada en la Argentina, donde también circula como Brayan. El significado del nombre Brian no está confirmado: algunas teorías lo vinculan a «noble» o al celta «colina».",
+    "santoral": ""
+  },
+  "Silvina": {
+    "origen": "Latín",
+    "significado": "«Nacida en el bosque, silvestre» (del latín Silva, «bosque»)",
+    "nota": "Femenino del latín Silvinus. Fue especialmente popular en la Argentina durante la segunda mitad del siglo XX.",
+    "santoral": ""
+  },
+  "Boris": {
+    "origen": "Eslavo (búlgaro/ruso)",
+    "significado": "«Luchador, el que combate» (probable abreviación del eslavo Borislav, «lucha» + «gloria»)",
+    "nota": "Nombre difundido por el zar Boris I de Bulgaria (siglo X). En el santoral se recuerda a los mártires Boris y Gleb de Kiev.",
+    "santoral": "24 de julio (Santos Boris y Gleb)"
+  },
+  "Jesica": {
+    "origen": "Hebreo (creado por Shakespeare)",
+    "significado": "«Dios contempla» (del hebreo Yiskah, יִסְכָּה, «la que ve», hija de Harán en el Génesis)",
+    "nota": "Grafía con una sola «s», muy extendida en la Argentina; la forma canónica Jessica fue creada por William Shakespeare en «El mercader de Venecia» (1596), tomada del personaje bíblico Yiscah.",
+    "santoral": ""
+  },
+  "Mikaela": {
+    "origen": "hebreo",
+    "significado": "«¿quién como Dios?» (mi «¿quién?» + kha «como» + El «Dios»)",
+    "nota": "Variante ortográfica con K de Micaela, forma femenina de Miguel. Es un nombre bíblico en referencia al arcángel Miguel.",
+    "santoral": "29 de septiembre (San Miguel Arcángel)"
+  },
+  "Natividad": {
+    "origen": "latín",
+    "significado": "«nacimiento» (latín nativitas, de nasci «nacer»)",
+    "nota": "Nombre mariano que alude al nacimiento de Jesús (Navidad) y al de la Virgen María. Es un nombre clásico argentino, sobre todo en la zona del litoral.",
+    "santoral": "8 de septiembre (Natividad de la Virgen María)"
+  },
+  "Katalina": {
+    "origen": "griego",
+    "significado": "«pura, inmaculada» (griego katharós «puro»; etimología debatida, posiblemente de Aikaterine)",
+    "nota": "Variante con K de Catalina, nombre de santas y reinas. El origen exacto (Aikaterine) es discutido, pero la asociación con «pura» es la más difundida.",
+    "santoral": "25 de noviembre (Santa Catalina de Alejandría); 29 de abril (Santa Catalina de Siena)"
+  },
+  "Lucian": {
+    "origen": "latín",
+    "significado": "«luminoso, nacido a la luz» (latín Lucianus, de Lucius, de lux «luz»)",
+    "nota": "Forma inglesa y rumana de Luciano, frecuente en países anglosajones; la forma normativa en español es Luciano.",
+    "santoral": "7 de enero (San Luciano de Antioquía)"
+  },
+  "Nazareth": {
+    "origen": "hebreo",
+    "significado": "«la que viene de Nazaret» (topónimo; posiblemente del hebreo nétzer «brote, renuevo», o de notzer «guardián»)",
+    "nota": "Nombre toponímico de la ciudad de Galilea donde creció Jesús; su etimología exacta es debatida. Connota fuerte carga religiosa.",
+    "santoral": ""
+  },
+  "Coral": {
+    "origen": "griego/latín",
+    "significado": "«coral (marino)» (latín corallium, del griego korallion, quizá de origen semítico)",
+    "nota": "Nombre moderno tomado del coral, apreciado desde la Antigüedad como gema y amuleto protector. No tiene santo propio.",
+    "santoral": ""
+  },
+  "Isai": {
+    "origen": "hebreo",
+    "significado": "«don de Dios; Dios existe» (hebreo Yishai; significado debatido, quizá de ish «hombre» o yesh «existe»)",
+    "nota": "Nombre bíblico del padre del rey David, antepasado de Jesús según la genealogía del Nuevo Testamento. La forma hispánica normativa es Isaí, con tilde.",
+    "santoral": ""
+  },
+  "Yolanda": {
+    "origen": "Incierto",
+    "significado": "«violeta» (latín viola, vía Violante; también se propone el griego Iolanthe o un origen germánico)",
+    "nota": "La etimología es debatida: la interpretación floral («violeta») es la más aceptada, aunque se han propuesto raíces germánicas. Muy popular en el mundo hispano.",
+    "santoral": "11 de junio (Beata Yolanda de Polonia)"
+  },
+  "Yoseli": {
+    "origen": "Incierto",
+    "significado": "Hipocorístico o variante de Yoselin/Jocelyn (posiblemente del germánico Gaut «tribu» + lin, o del hebreo Yosef «Dios añadirá»)",
+    "nota": "Creación moderna hispanoamericana formada sobre Yoselin, de la familia de Jocelyn; su etimología no tiene consenso y no posee santoral.",
+    "santoral": ""
+  },
+  "Bernarda": {
+    "origen": "germánico",
+    "significado": "«fuerte como un oso» (germánico berin «oso» + hard «fuerte, valiente»)",
+    "nota": "Femenino de Bernardo. El nombre quedó inmortalizado en la obra teatral «La casa de Bernarda Alba», de Federico García Lorca.",
+    "santoral": "20 de agosto (San Bernardo de Claraval)"
+  },
+  "Noriel": {
+    "origen": "Hebreo",
+    "significado": "«luz o lámpara de Dios» (heb. 'ner' = lámpara/luz + 'El' = Dios)",
+    "nota": "Nombre de un ángel en la angelología judía; la ortografía varía entre Noriel, Neriel y Nuriel. De origen teofórico, no tiene santo en el santoral católico.",
+    "santoral": ""
+  },
+  "Alin": {
+    "origen": "Rumano",
+    "significado": "«el que consuela/calma» (rum. 'a alina' = calmar, consolar)",
+    "nota": "En rumano es nombre masculino, posible forma corta de Alina o derivado del verbo 'alina' ('calmar'). En el mundo hispano se usa también para niñas, asociado a Alina o Alan. Sin santoral.",
+    "santoral": ""
+  },
+  "Maya": {
+    "origen": "Múltiple (sánscrito y griego)",
+    "significado": "«ilusión» (sánscrito 'māyā') o «nodriza, buena madre» (griego 'Maia', ninfa madre de Hermes)",
+    "nota": "Nombre de origen poligenético: aparece en sánscrito (filosofía hindú), en la mitología griega (una de las Pléyades) y como variante corta de María o Amalia. En hebreo suele asociarse a 'mayim' (agua). No tiene santa en el calendario católico.",
+    "santoral": ""
+  },
+  "Juniors": {
+    "origen": "Inglés (del latín 'iunior')",
+    "significado": "«el más joven» (lat. 'iunior', de 'iuvenis' = joven)",
+    "nota": "Adaptación del inglés 'junior', usado en República Dominicana y otros países latinoamericanos como nombre propio; no tiene raíz tradicional en la onomástica hispana ni santoral asignado.",
+    "santoral": ""
+  },
+  "Ryan": {
+    "origen": "Irlandés (gaélico)",
+    "significado": "«pequeño rey» (ir. 'rí' = rey + sufijo diminutivo; etimología tradicional, no confirmada)",
+    "nota": "Proviene del apellido irlandés Ó Riain ('descendiente de Rian'). Los estudiosos señalan que el sentido original de Rian se perdió, aunque la tradición popular lo traduce como 'pequeño rey' o 'campeón'. Sin santoral.",
+    "santoral": ""
+  },
+  "Yareli": {
+    "origen": "Incierto",
+    "significado": "Sin etimología aceptada (sin consenso; a veces se propone «agua poderosa» o «bella» en náhuatl, sin verificación)",
+    "nota": "Nombre femenino de uso reciente, popular en México; algunas fuentes proponen raíces indígenas (náhuatl o zapoteco) pero no hay etimología documentada. Sin santoral.",
+    "santoral": ""
+  },
+  "Emely": {
+    "origen": "Inglés (del latín Aemilius)",
+    "significado": "«la que rivaliza» (lat. 'Aemilius', nombre de la gens romana Emilia)",
+    "nota": "Variante gráfica inglesa de Emily/Emilia, del nomen romano Aemilius. Confundido a veces con Amelia (del germánico 'amal', 'trabajo'). Se celebra como Emilia, conmemorando a Santa Emilia de Vialar el 24 de agosto.",
+    "santoral": "24 de agosto (Santa Emilia de Vialar)"
+  },
+  "Larissa": {
+    "origen": "Griego",
+    "significado": "«la de Larisa» (nombre de ciudad de Tesalia y de una ninfa de la mitología griega; sentido propio dudoso)",
+    "nota": "Nombre ligado a la ciudad griega de Larisa y a una ninfa hija de Pelasgo. Santa Larisa es una mártir de Crimea (s. IV), celebrada el 26 de marzo junto a los mártires godos.",
+    "santoral": "26 de marzo (Santa Larisa, mártir de Crimea)"
+  },
+  "Leah": {
+    "origen": "Hebreo",
+    "significado": "«fatigada» (heb. 'le'ah', de 'la'ah' = cansarse; sentido etimológico incierto)",
+    "nota": "Nombre de la primera esposa de Jacob en la Biblia (Génesis 29). En el santoral se recuerda a Santa Lea de Roma, viuda del siglo IV elogiada por San Jerónimo, el 22 de marzo. En español se escribe también 'Lía'.",
+    "santoral": "22 de marzo (Santa Lea de Roma)"
+  },
+  "Analuz": {
+    "origen": "Hebreo-latín (compuesto hispánico)",
+    "significado": "«gracia y luz» (Ana, del heb. 'hannah' = gracia/compasión + Luz, de 'lux' = luz)",
+    "nota": "Compuesto hispánico moderno de Ana y Luz, sin registro onomástico tradicional propio; suele escribirse también 'Ana Luz'. Comparte el santoral de Ana, el 26 de julio.",
+    "santoral": "26 de julio (Santa Ana)"
+  },
+  "Yoselyn": {
+    "origen": "Germánico",
+    "significado": "variante de Jocelyn, 'descendiente de Josse' (del francés antiguo Joscelin, diminutivo del germánico Gauzelin/Gautselin)",
+    "nota": "Adaptación hispánica de Jocelyn, nombre medieval inglés de raíz germánica. Se popularizó en América latina como variante femenina de José.",
+    "santoral": ""
+  },
+  "Ludovico": {
+    "origen": "Germánico",
+    "significado": "'famoso en la batalla' (hlod 'fama' + wig 'batalla'), forma italiana de Ludovicus",
+    "nota": "Equivale a Luis y a Clodoveo; es la forma italiana de Ludovicus, nombre de varios reyes y santos. En español se documenta también la variante normativa Ludovico.",
+    "santoral": "25 de agosto (San Luis, rey de Francia)"
+  },
+  "Jahaziel": {
+    "origen": "Hebreo",
+    "significado": "'Dios ve, Dios contempla' (yah 'Yavé' + hazah 'ver, contemplar')",
+    "nota": "Nombre bíblico del Antiguo Testamento; un levita profeta llamado Jahaziel anunció la victoria al rey Josafat (2 Crónicas 20:14). Poco frecuente como nombre de pila moderno.",
+    "santoral": ""
+  },
+  "Britani": {
+    "origen": "Inglés (toponímico)",
+    "significado": "'de Bretaña' (del topónimo Bretain/Brittany)",
+    "nota": "Variante ortográfica de Britney/Brittany, nombre tomado del topónimo francés Bretaña. Popularizado en los años 1990 por la cantante Britney Spears.",
+    "santoral": ""
+  },
+  "Arya": {
+    "origen": "Sánscrito",
+    "significado": "'noble, respetable' (sánscrito ārya)",
+    "nota": "Nombre de origen sánscrito presente en la tradición hindú; también se usa en persa con el sentido de 'noble'. Su difusión actual creció por el personaje de Juego de Tronos.",
+    "santoral": ""
+  },
+  "Jacinto": {
+    "origen": "Griego",
+    "significado": "'flor de jacinto' (griego hyakinthos)",
+    "nota": "En la mitología griega, Jacinto fue un joven amado por Apolo; además es nombre de flor. Lo llevaron un santo polaco (17 de agosto) y varios santos de la Iglesia.",
+    "santoral": "17 de agosto (San Jacinto de Polonia)"
+  },
+  "Nemias": {
+    "origen": "Hebreo",
+    "significado": "'Dios consuela' (nehamá 'consuelo' + yah 'Yavé')",
+    "nota": "Variante de Nehemías (Nechemías), personaje bíblico que reconstruyó los muros de Jerusalén. Es la forma popular hispánica, sin hache ni tilde, aunque la forma normativa es Nehemías.",
+    "santoral": ""
+  },
+  "Evaristo": {
+    "origen": "Griego",
+    "significado": "'agradable, bien recibido' (eu 'bien' + areskos 'que agrada')",
+    "nota": "Del griego Euarestos, nombre de un papa del siglo II. Lo popularizó en Argentina el poeta Evaristo Carriego, epónimo del barrio porteño.",
+    "santoral": "26 de octubre (San Evaristo, papa)"
+  },
+  "Jhonas": {
+    "origen": "Hebreo",
+    "significado": "'paloma' (hebreo yoná)",
+    "nota": "Variante ortográfica de Jonás, nombre del profeta bíblico tragado por un gran pez. La forma normativa en español es Jonás, con tilde.",
+    "santoral": "21 de septiembre (San Jonás, profeta)"
+  },
+  "Tyrone": {
+    "origen": "Irlandés (gaélico, toponímico)",
+    "significado": "'tierra de Eoghan' (gaélico tír 'tierra' + Eoghan, nombre propio)",
+    "nota": "Procede del condado irlandés Tyrone (Tír Eoghain), territorio del clan del príncipe Eoghan. Como nombre de pila se difundió en el siglo XX en países anglófonos.",
+    "santoral": ""
+  },
+  "Humberto": {
+    "origen": "Germánico (germánico antiguo Hunberht)",
+    "significado": "«gigante brillante», «brillante como osezno» (hun 'cachorro de oso, gigante' + beraht 'brillante')",
+    "nota": "Nombre de reyes y santos medievales. En español la forma normativa es Humberto, que no lleva tilde.",
+    "santoral": "25 de marzo (San Humberto de Marolles, abad)"
+  },
+  "Francis": {
+    "origen": "Latín medieval (Franciscus), forma inglesa de Francisco",
+    "significado": "«francés», «el que viene de Francia» (del latín tardío Franciscus, derivado de Francus 'de los francos')",
+    "nota": "Forma inglesa difundida por San Francisco de Asís y usada por el papa Francisco. La forma hispánica normativa es Francisco.",
+    "santoral": "4 de octubre (San Francisco de Asís)"
+  },
+  "Adelina": {
+    "origen": "Germánico (alemán antiguo adal 'noble')",
+    "significado": "«de noble linaje», «pequeña noble» (adal 'noble' + sufijo diminutivo -ina/-lina)",
+    "nota": "Diminutivo medieval de Adela, muy popular en el mundo hispánico. Lo venera Santa Adelina de Mortain, abadesa benedictina.",
+    "santoral": "20 de octubre (Santa Adelina de Mortain)"
+  },
+  "Olga": {
+    "origen": "Nórdico antiguo (llegó al español a través del eslavo Ol'ga), femenino de Oleg",
+    "significado": "«sagrada», «bendita» (del nórdico antiguo Helgi 'santo, sagrado')",
+    "nota": "Lo dio a conocer la princesa Olga de Kiev, primera gobernante cristiana de la Rus'. Muy difundido en el mundo eslavo y luego en Occidente.",
+    "santoral": "11 de julio (Santa Olga de Kiev)"
+  },
+  "Danisa": {
+    "origen": "Incierto (registrado como nombre femenino occitano/provenzal, sin etimología definida)",
+    "significado": "Sin significado consensuado; se la suele asociar con Danica «lucero del alba» (eslavo) o con Daniela «Dios es mi juez» (dan 'juez' + El 'Dios', hebreo)",
+    "nota": "No aparece en los principales diccionarios etimológicos; es un nombre muy raro de uso casi exclusivamente femenino. El consenso académico es bajo, por eso su origen se marca como incierto.",
+    "santoral": ""
+  },
+  "Anastasia": {
+    "origen": "Griego (anástasis 'resurrección')",
+    "significado": "«resurrección», «la que resucita» (aná 'de nuevo' + hístēmi 'levantarse'; anástasis 'resurrección')",
+    "nota": "Femenino de Anastasio; lo llevó una mártir cristiana muy venerada y la gran duquesa Anastasia Románova. El santoral lo celebra en Nochebuena.",
+    "santoral": "25 de diciembre (Santa Anastasia, mártir)"
+  },
+  "Haziel": {
+    "origen": "Hebreo (chazah 'ver' + El 'Dios')",
+    "significado": "«visión de Dios», «aquel que ve a Dios» (chazah 'ver, contemplar' + El 'Dios')",
+    "nota": "Nombre teofórico de raíz bíblica (un levita homónimo aparece en 1 Crónicas 23:9) y nombre de un ángel en tradiciones cabalísticas. Es de uso reciente en Latinoamérica.",
+    "santoral": ""
+  },
+  "Thiziano": {
+    "origen": "Latín (Titianus, gentilicio de la gens Titia)",
+    "significado": "«perteneciente a la gens Ticia», «el de los Ticii» (Titius + sufijo gentilicio -anus)",
+    "nota": "Grafía con 'th' no normativa: la forma hispánica correcta es Tiziano. Lo inmortalizó el pintor renacentista Tiziano Vecellio.",
+    "santoral": "16 de enero (San Tiziano de Oderzo, obispo)"
+  },
+  "Adabel": {
+    "origen": "Incierto (posible creación moderna; se asocia a Ada 'noble' + sufijo -bel, o al germánico adal 'noble')",
+    "significado": "«noble y bella» (ada/adal 'noble' + bel 'bella'), según interpretación popular, sin etimología consensuada",
+    "nota": "Nombre femenino de uso reciente, popularizado en Argentina por la vedette y bailarina Adabel Guerrero. Combina Ada con el sufijo -bel, a imitación de nombres como Isabel o Mabel.",
+    "santoral": ""
+  },
+  "Nehiel": {
+    "origen": "Hebreo (variante gráfica de Neiel, bíblico)",
+    "significado": "«movido por Dios», «agitado por Dios» (de nûa' 'moverse, agitarse' + El 'Dios')",
+    "nota": "En la Biblia, Neiel es un lugar de la tribu de Aser (Josué 19:27); Nehiel es la grafía que usa la Reina-Valera de 1909. Como nombre de pila es de aparición reciente en Latinoamérica.",
+    "santoral": ""
+  },
+  "Cesia": {
+    "origen": "Latín (variante de Cecilia/Caecilia)",
+    "significado": "«cieguecilla» o «la de ojos azul grisáceo» (de 'caecus', ciego, o 'caesius', azul grisáceo)",
+    "nota": "Forma hispanoamericana de Cecilia, femenino del romano Cecilio (gens Caecilia). Algunas fuentes la vinculan también al hebreo Ketzíah, 'canela', nombre de una hija de Job.",
+    "santoral": "22 de noviembre (santa Cecilia)"
+  },
+  "Dereck": {
+    "origen": "Alemán antiguo, vía inglés (variante de Derek/Derrick)",
+    "significado": "«gobernante del pueblo» (de 'theud', pueblo, + 'ric', poder)",
+    "nota": "Variante gráfica inglesa de Derek, forma abreviada inglesa de Teodorico (Theodoric). Se pronuncia igual que Derrick.",
+    "santoral": ""
+  },
+  "Lisbeth": {
+    "origen": "Hebreo (diminutivo de Elizabeth/Elisabet)",
+    "significado": "«mi Dios es juramento» (de 'el', Dios, + 'shevúa', juramento)",
+    "nota": "Variante corta de Elizabeth, de gran uso en países nórdicos y germánicos, hoy nombre independiente. Se asocia a la figura bíblica de Isabel, madre de Juan el Bautista.",
+    "santoral": "5 de noviembre (santa Isabel, madre de san Juan Bautista)"
+  },
+  "Gianela": {
+    "origen": "Italiano (diminutivo femenino de Gianni/Giovanni)",
+    "significado": "«Dios es misericordioso» o «la gracia de Dios» (del hebreo 'Yohanan')",
+    "nota": "Variante de Gianella, diminutivo cariñoso de Gianna, forma femenina de Giovanni (Juan). Muy popular en Perú y otros países andinos por la influencia de la inmigración italiana.",
+    "santoral": "24 de junio (san Juan Bautista)"
+  },
+  "Ayla": {
+    "origen": "Turco y hebreo (poligenético)",
+    "significado": "«halo de luz alrededor de la luna» (turco 'ay', luna) o «encina» (hebreo 'elah')",
+    "nota": "Nombre femenino de doble raíz: en turco remite al resplandor lunar y en hebreo moderno al árbol bíblico del valle de Ela. Se popularizó en Occidente con la novela 'El clan del oso cavernario' (1980).",
+    "santoral": ""
+  },
+  "Nahel": {
+    "origen": "Árabe",
+    "significado": "«el que sacia la sed» (de la raíz 'nahala', beber hasta saciarse)",
+    "nota": "Nombre masculino árabe difundido en países francófonos e hispanohablantes; otras fuentes lo asocian con 'nahla', abeja, o con 'nayl', logro. Cobró notoriedad mediática en Francia en 2023.",
+    "santoral": ""
+  },
+  "Teodoro": {
+    "origen": "Griego (Theodōros)",
+    "significado": "«regalo de Dios» (de 'theos', Dios, + 'dōron', regalo)",
+    "nota": "Nombre clásico de varios santos y emperadores bizantinos. La forma femenina es Teodora; su variante inglesa es Theodore.",
+    "santoral": "9 de noviembre (san Teodoro, mártir)"
+  },
+  "Aidan": {
+    "origen": "Irlandés (Aodhán)",
+    "significado": "«pequeño fuego» (diminutivo de 'Aodh', fuego)",
+    "nota": "Nombre irlandés muy difundido por san Aidán de Lindisfarne, monje del siglo VII que evangelizó Inglaterra. Popular también en inglés como Aidan/Aiden.",
+    "santoral": "31 de agosto (san Aidán de Lindisfarne)"
+  },
+  "Nilo": {
+    "origen": "Griego (Neilos), nombre del río",
+    "significado": "«del río Nilo» (griego 'Neilos', el gran río de Egipto)",
+    "nota": "Más que un nombre de pila tradicional, evoca el río Nilo; como nombre cristiano honra a san Nilo el Joven, abad italogriego del siglo X. En italiano existe como Nilo.",
+    "santoral": "26 de septiembre (san Nilo el Joven, abad)"
+  },
+  "Cattleya": {
+    "origen": "Latín científico (honorífico, del apellido Cattley)",
+    "significado": "«orquídea» (género de orquídeas bautizado en honor del botánico inglés William Cattley)",
+    "nota": "Nombre floral moderno, sin tradición histórica ni santoral: el género Cattleya, orquídea emblemática de Colombia, fue dedicado en el siglo XIX al horticultor William Cattley.",
+    "santoral": ""
   }
 }
