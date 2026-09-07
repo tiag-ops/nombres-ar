@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import {notFound } from "next/navigation";
 import {
   ANIO_ACTUAL,
   dataset,
@@ -10,7 +10,7 @@ import {
   miles,
   sexoDe,
   tieneFicha,
-} from "@/lib/datos";
+  slug} from "@/lib/datos";
 
 export const dynamicParams = false;
 
@@ -68,7 +68,7 @@ export default async function Page({ params }: { params: Promise<{ letra: string
             return (
               <li key={n.nombre} className="border-b border-[#F0EADA] last:border-b-0 dark:border-[#1A2620]">
                 {conFicha(n.nombre) ? (
-                  <Link href={`/nombre/${n.nombre.toLowerCase()}/`} className="flex items-center gap-3 py-2.5 hover:text-[#0F766E] dark:hover:text-[#5EEAD4]">
+                  <Link href={`/nombre/${slug(n.nombre)}/`} className="flex items-center gap-3 py-2.5 hover:text-[#0F766E] dark:hover:text-[#5EEAD4]">
                     <span className="w-7 text-right font-display text-sm font-bold text-[#6B6558] dark:text-[#9BA89F]">{i + 1}</span>
                     <span className="font-semibold">{displayName(n.nombre)}</span>
                     <span className={`inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${

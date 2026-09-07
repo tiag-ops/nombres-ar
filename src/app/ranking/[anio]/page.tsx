@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import {notFound } from "next/navigation";
 import {
   ANIO_ACTUAL,
   ANIOS,
@@ -10,7 +10,7 @@ import {
   sexoDe,
   tasaPorMil,
   tieneFicha,
-} from "@/lib/datos";
+  slug} from "@/lib/datos";
 
 export const dynamicParams = false;
 
@@ -108,7 +108,7 @@ export default async function Page({ params }: { params: Promise<{ anio: string 
                   <td className="font-display font-bold text-[#C2410C] dark:text-[#FDBA74]">{i + 1}</td>
                   <td>
                     {tieneFicha(n.nombre) ? (
-                      <Link href={`/nombre/${n.nombre.toLowerCase()}/`} className="font-semibold hover:text-[#0F766E] dark:hover:text-[#5EEAD4]">
+                      <Link href={`/nombre/${slug(n.nombre)}/`} className="font-semibold hover:text-[#0F766E] dark:hover:text-[#5EEAD4]">
                         {displayName(n.nombre)}
                       </Link>
                     ) : (

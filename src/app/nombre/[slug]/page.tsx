@@ -17,6 +17,7 @@ import {
   serie,
   sexoDe,
   significados,
+  slug as slugDe,
   tasaPorMil,
   tendencia,
   tieneFicha,
@@ -35,7 +36,7 @@ const GUIAS_REL = GUIAS.filter((g) =>
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return FICHAS.map((nombre) => ({ slug: nombre.toLowerCase() }));
+  return FICHAS.map((nombre) => ({ slug: slugDe(nombre) }));
 }
 
 export async function generateMetadata({
@@ -261,7 +262,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
             {hermanos.map((h) => (
               <Link
                 key={h.nombre}
-                href={`/nombre/${h.nombre.toLowerCase()}/`}
+                href={`/nombre/${slugDe(h.nombre)}/`}
                 className="rounded-full border border-[#E4DCCB] px-4 py-2 text-sm font-medium transition-colors hover:border-[#0F766E] hover:text-[#0F766E] dark:border-[#23312B] dark:hover:border-[#5EEAD4] dark:hover:text-[#5EEAD4]"
               >
                 {displayName(h.nombre)}

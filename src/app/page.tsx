@@ -1,6 +1,5 @@
 import Link from "next/link";
-import {
-  ANIO_ACTUAL,
+import {ANIO_ACTUAL,
   ANIOS,
   FICHAS,
   LETRAS_CON_FICHA,
@@ -10,7 +9,7 @@ import {
   sexoDe,
   significados,
   topPorAnio,
-} from "@/lib/datos";
+  slug} from "@/lib/datos";
 import { SITE_DESCRIPCION } from "@/lib/site";
 
 export const metadata = {
@@ -159,7 +158,7 @@ export default function Home() {
                 return (
                   <li key={n}>
                     <Link
-                      href={`/nombre/${n.toLowerCase()}/`}
+                      href={`/nombre/${slug(n)}/`}
                       className="card card-hover block"
                     >
                       <span className="font-display text-lg font-bold">{displayName(n)}</span>

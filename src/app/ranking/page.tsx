@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import {
-  ANIOS,
+import {ANIOS,
   ANIO_ACTUAL,
   displayName,
   miles,
   rankAnio,
   sexoDe,
   tieneFicha,
-} from "@/lib/datos";
+  slug} from "@/lib/datos";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -62,7 +61,7 @@ export default function Page() {
               <li key={n.nombre} className="flex items-baseline gap-3 rounded-lg px-2 py-1.5 hover:bg-[#F0EADA] dark:hover:bg-[#16241E]">
                 <span className="w-6 text-right font-display text-sm font-bold text-[#C2410C] dark:text-[#FDBA74]">{i + 1}</span>
                 {tieneFicha(n.nombre) ? (
-                  <Link href={`/nombre/${n.nombre.toLowerCase()}/`} className="font-semibold hover:text-[#0F766E] dark:hover:text-[#5EEAD4]">
+                  <Link href={`/nombre/${slug(n.nombre)}/`} className="font-semibold hover:text-[#0F766E] dark:hover:text-[#5EEAD4]">
                     {displayName(n.nombre)}
                   </Link>
                 ) : (
