@@ -6021,5 +6021,365 @@
     "significado": "Ruiseñor; pájaro cantor.",
     "nota": "Nombre hebreo moderno ('zamir', ruiseñor), también registrado con el sentido de 'canción'. Su uso se concentra en comunidades judías e israelíes.",
     "santoral": ""
+  },
+  "Agustino": {
+    "origen": "Latín (derivado de Agustín, del latín Augustinus, diminutivo de Augustus)",
+    "significado": "Venerable, majestuoso, consagrado a la majestad del emperador Augusto",
+    "nota": "Variante de Agustín formada con el sufijo -ino. Comparte santoral y tradición con San Agustín de Hipona, obispo y doctor de la Iglesia. Como nombre propio es poco frecuente; es más conocido como gentilicio de la orden agustiniana.",
+    "santoral": "28 de agosto (San Agustín de Hipona)"
+  },
+  "Justino": {
+    "origen": "Latín (Justinus, derivado de Justus, 'justo')",
+    "significado": "El justo, el que obra con justicia",
+    "nota": "Nombre de varios santos y de emperadores bizantinos (de aquí deriva Justiniano). El más celebrado es San Justino Mártir, filósofo y apologista cristiano del siglo II, patrón de los filósofos.",
+    "santoral": "1 de junio (San Justino Mártir)"
+  },
+  "Luisiana": {
+    "origen": "Germánico (de Luis, del germánico Hlodowig, 'guerrero ilustre')",
+    "significado": "La ilustre en la batalla; relacionado con Luis/Luisa o con el topónimo Luisiana",
+    "nota": "Nombre femenino moderno y poco frecuente. Se asocia tanto a un femenino elaborado de Luis/Luisiano como al territorio estadounidense de Luisiana, bautizado en honor del rey Luis XIV de Francia.",
+    "santoral": ""
+  },
+  "Claribel": {
+    "origen": "Compuesto de origen latino (clara, de clarus, + bella, de bellus); difundido por la literatura inglesa",
+    "significado": "La clara y bella; la que brilla con belleza",
+    "nota": "Nombre compuesto usado en la poesía y el teatro ingleses de los siglos XVI-XVII (Spenser, Shakespeare). En español se interpreta como combinación de Clara e Isabel, o de 'clara' y 'bella'.",
+    "santoral": ""
+  },
+  "Kyara": {
+    "origen": "Incierto (variante gráfica moderna de Kiara, a su vez ligada a Chiara, forma italiana de Clara)",
+    "significado": "Clara, brillante, luminosa (por asociación con Kiara/Chiara)",
+    "nota": "Grafía con K, surgida a fines del siglo XX, sin una etimología consensuada. En japonés, 'kyara' (伽羅) designa una madera aromática usada en inciensos, de donde algunos toman la inspiración.",
+    "santoral": ""
+  },
+  "Leire": {
+    "origen": "Vasco (toponímico, del monasterio de Leire/Leyre, en Navarra)",
+    "significado": "De significado no consensuado; la tradición latina le atribuye 'mujer legionaria', vinculada al monasterio de San Salvador de Leyre",
+    "nota": "Nombre femenino vasco-navarro tomado del monasterio benedictino de San Salvador de Leyre, panteón de los reyes de Navarra. La advocación de Nuestra Señora de Leire se celebra el 9 de julio; es un nombre muy popular en el País Vasco y Navarra.",
+    "santoral": "9 de julio (Nuestra Señora de Leire)"
+  },
+  "Arnaldo": {
+    "origen": "Germánico (arn, 'águila', + wald, 'poder, gobierno')",
+    "significado": "El que gobierna como el águila; fuerte como el águila",
+    "nota": "Forma romance de Arnold, documentado en la Cataluña y la Valencia medievales; su variante catalana es Arnau y la inglesa, Arnold. Celebra su onomástica el día de San Arnaldo.",
+    "santoral": "10 de febrero (San Arnaldo)"
+  },
+  "Baltasar": {
+    "origen": "Asirio-babilónico (Bēl-šar-uṣur, 'Bel protege al rey')",
+    "significado": "Bel (dios) protege al rey; Dios protege al rey",
+    "nota": "Nombre de uno de los Reyes Magos de la tradición cristiana, y en la Biblia, del último rey de Babilonia (Belsasar). En Argentina y gran parte de Hispanoamérica su festejo se asocia a la Epifanía, el 6 de enero.",
+    "santoral": "6 de enero (Epifanía, fiesta de los Reyes Magos)"
+  },
+  "Alessio": {
+    "origen": "Griego (Alexios, de aléxein, 'defender'; forma italiana de Alejo)",
+    "significado": "El defensor, el protector",
+    "nota": "Forma italiana de Alejo/Alexis, muy popular en Italia. Su figura principal es San Alejo de Roma, el 'mendigo', cuya leyenda se difundió en la Edad Media; se le venera como protector de peregrinos y mendigos.",
+    "santoral": "17 de julio (San Alejo de Roma)"
+  },
+  "Aramis": {
+    "origen": "Incierto (difundido por la literatura francesa; origen toponímico de Aramits, en los Pirineos vascos)",
+    "significado": "Sin significado propio: apellido-topónimo popularizado como nombre por la novela de Dumas",
+    "nota": "El nombre se conoce por el mosquetero de 'Los tres mosqueteros' (1844) de Alejandro Dumas. El personaje se basa en el mosquetero real Henri d'Aramitz, cuyo apellido proviene de la localidad pirenaica de Aramits, en el País Vasco francés.",
+    "santoral": ""
+  },
+  "Joseline": {
+    "origen": "Germánico (vía francés)",
+    "significado": "Pequeña goda; de la tribu de los Gauts (godos)",
+    "nota": "Variante francesa de Jocelyne, del germánico Gauzelin o Gautselin (elemento tribal 'gaut', los godos, más el sufijo diminutivo '-lin'). En el ámbito hispano suele asociarse por similitud con José, aunque no comparten etimología. Nombre femenino popular en América Latina.",
+    "santoral": ""
+  },
+  "Homero": {
+    "origen": "Griego",
+    "significado": "Rehén, prenda; también 'el que acompaña'",
+    "nota": "Del griego Ómeros (Homēros), de homeros ('rehén, prenda'). Es el nombre del gran poeta épico griego, autor de la Ilíada y la Odisea. No tiene santoral católico establecido.",
+    "santoral": ""
+  },
+  "Silvana": {
+    "origen": "Latín",
+    "significado": "La que habita en el bosque; la selvática",
+    "nota": "Femenino de Silvano, derivado del latín silva ('bosque, selva'). Silvano era el dios romano de los bosques y los campos.",
+    "santoral": ""
+  },
+  "Eleonora": {
+    "origen": "Incierto",
+    "significado": "Incierto; suele asociarse con 'compasión, piedad' (griego éleos)",
+    "nota": "Forma de Leonor (Eleanor), del provenzal Aliénor, nombre de Leonor de Aquitania. La etimología es discutida: se ha propuesto el griego éleos ('compasión'), el occitano aliénor ('la otra Aénor') o un origen germánico; no hay consenso académico.",
+    "santoral": ""
+  },
+  "Monica": {
+    "origen": "Incierto",
+    "significado": "Sin consenso; posiblemente 'única, la que permanece sola' (griego monos)",
+    "nota": "Etimología discutida: se ha propuesto el griego monos ('solo, único'), el latín monere ('aconsejar, advertir') o un origen beréber o numidio del norte de África. Se difundió por Santa Mónica, madre de San Agustín. En español normativo se escribe Mónica, con tilde; la grafía sin tilde es la inglesa e italiana.",
+    "santoral": "Santa Mónica, 27 de agosto"
+  },
+  "Mijael": {
+    "origen": "Hebreo",
+    "significado": "¿Quién como Dios?",
+    "nota": "Del hebreo Mija'el (מִיכָאֵל), pregunta retórica que implica que nadie se compara con Dios. Variante de Miguel; es el nombre del arcángel Miguel, protector en la tradición judeocristiana.",
+    "santoral": "San Miguel Arcángel, 29 de septiembre"
+  },
+  "Shantal": {
+    "origen": "Francés (occitano)",
+    "significado": "Piedra, lugar pedregoso",
+    "nota": "Variante ortográfica de Chantal, que proviene de la antigua palabra occitana cantal ('piedra'). Se popularizó como nombre de pila en honor a Santa Juana Francisca Fremiot de Chantal, cofundadora de la Orden de la Visitación.",
+    "santoral": "Santa Juana Francisca de Chantal, 12 de agosto"
+  },
+  "Ander": {
+    "origen": "Vasco (del griego Andrés)",
+    "significado": "Varonil, valiente, viril",
+    "nota": "Forma vasca de Andrés, del griego Andreas, derivado de aner, andrós ('hombre, varón'). Es uno de los nombres masculinos más usados en el País Vasco.",
+    "santoral": "San Andrés Apóstol, 30 de noviembre"
+  },
+  "Steven": {
+    "origen": "Griego (forma inglesa de Esteban)",
+    "significado": "Corona, coronado; el victorioso",
+    "nota": "Forma inglesa de Esteban, del griego Stéfanos ('corona, guirnalda'). San Esteban fue el primer mártir cristiano, apedreado según el libro de los Hechos.",
+    "santoral": "San Esteban, 26 de diciembre"
+  },
+  "Estanislao": {
+    "origen": "Eslavo (polaco)",
+    "significado": "El que alcanza la gloria; de gloria estable",
+    "nota": "Del eslavo Stanislav, compuesto por stan ('convertirse, llegar a ser') y slava ('gloria'). Nombre de San Estanislao de Cracovia, obispo y mártir, patrono de Polonia.",
+    "santoral": "San Estanislao de Cracovia, 11 de abril"
+  },
+  "Alessandra": {
+    "origen": "Italiano",
+    "significado": "La protectora de los hombres; defensora de la humanidad",
+    "nota": "Forma italiana de Alejandra, femenino de Alessandro (Alejandro): del griego alexein ('defender, proteger') y andros ('hombre'). Difundida en Italia desde el Renacimiento y en Argentina a través de la inmigración italiana. Comparte el santoral con las varias santas Alejandras del calendario católico.",
+    "santoral": "Santa Alejandra de Egipto (14 de febrero); se asocia al santoral de las varias santas Alejandras"
+  },
+  "Kendra": {
+    "origen": "Inglés",
+    "significado": "Incierto (se le atribuyen: 'colina alta', 'mujer sabia', 'la más grande campeona')",
+    "nota": "Nombre femenino moderno, creado en el siglo XX en los países anglófonos; se suele considerar forma femenina de Kenneth o Kendrick. Su etimología es discutida: unos la vinculan al galés Cynwrig ('colina alta') y otros a raíces del inglés antiguo o del gaélico. Sin santoral propio.",
+    "santoral": ""
+  },
+  "Fabio": {
+    "origen": "Latino",
+    "significado": "El que cultiva habas; cosechador de habas",
+    "nota": "Del latín 'faba' (haba), usado como cognomen de la gens romana Fabia. Nombre de raigambre clásica, extendido en Italia y los países mediterráneos. Variantes: Favio, Fabián, Fabiano.",
+    "santoral": "San Fabio de Mauritania (31 de julio)"
+  },
+  "Ashly": {
+    "origen": "Inglés",
+    "significado": "Prado de fresnos; claro del bosque de fresnos",
+    "nota": "Variante ortográfica moderna de Ashley, derivado de un topónimo del inglés antiguo: æsc ('fresno') + lēah ('claro, prado'). Originalmente apellido y nombre masculino; desde los años 1960 se popularizó como nombre femenino en EE. UU. Sin santoral.",
+    "santoral": ""
+  },
+  "Ticiano": {
+    "origen": "Italiano",
+    "significado": "Incierto; perteneciente a la gens romana Titia (de Tito/Ticio)",
+    "nota": "Variante de Tiziano, forma italiana del latín Titianus, gentilicio del nomen romano Titius, de etimología incierta. Célebre por el pintor veneciano del Renacimiento Tiziano Vecellio (Titian); el nombre llegó al español también como Ticiano, grafía con la que figura en el santoral (San Ticiano de Oderzo).",
+    "santoral": "San Ticiano de Oderzo, obispo (16 de enero)"
+  },
+  "Yaneth": {
+    "origen": "Inglés",
+    "significado": "Dios es misericordioso; Dios ha concedido (gracia de Dios)",
+    "nota": "Variante hispanoamericana de Janet o Janeth, diminutivo medieval de Jane, forma inglesa de Juana, del hebreo Yohanan ('Dios es misericordioso'). Muy difundido en América Latina (Colombia, México, Perú). Sin santoral propio; se asocia al de su forma originaria, Santa Juana (30 de mayo).",
+    "santoral": ""
+  },
+  "Adela": {
+    "origen": "Germánico",
+    "significado": "Noble; de linaje noble",
+    "nota": "Del germánico athal/adal ('noble'). Nombre muy usado entre la nobleza europea medieval; de la misma raíz derivan Adelaida, Adelina y, por vía francesa, Alicia. En español es nombre tradicional, con el hipocorístico Adelita.",
+    "santoral": "Santa Adela de Pfalzel (24 de diciembre)"
+  },
+  "Madelaine": {
+    "origen": "Francés",
+    "significado": "La de Magdala; mujer de Magdala (del hebreo migdal, 'torre')",
+    "nota": "Variante ortográfica de Madeleine, forma francesa de Magdalena, epíteto de María Magdalena, del arameo Magdala (localidad del mar de Galilea). Variantes: Magdalena, Madeline, Maddalena, Madelaine.",
+    "santoral": "Santa María Magdalena (22 de julio)"
+  },
+  "Rufino": {
+    "origen": "Latino",
+    "significado": "El pelirrojo; el de cabello rojizo",
+    "nota": "Del latín Rufinus, derivado de rufus ('pelirrojo, rojizo'), cognomen romano. El santoral registra varios santos con este nombre en fechas distintas; la más difundida en onomástica es el 11 de agosto. Variante femenina: Rufina.",
+    "santoral": "San Rufino de Asís, mártir (11 de agosto)"
+  },
+  "Yandel": {
+    "origen": "Incierto",
+    "significado": "Sin significado establecido",
+    "nota": "Nombre moderno sin etimología consensuada. Se popularizó en América Latina por el cantante puertorriqueño de reguetón Yandel (Llandel Veguilla Malavé, del dúo Wisin & Yandel), cuyo nombre artístico deriva de su nombre de pila Llandel. Sin santoral.",
+    "santoral": ""
+  },
+  "Ciara": {
+    "origen": "Irlandés (gaélico)",
+    "significado": "La de cabello oscuro; morena (del gaélico 'ciar', oscuro o negro)",
+    "nota": "Forma femenina de Ciarán, popularizada por Santa Ciara (Cera), abadesa irlandesa del siglo VII fallecida en 679. No deriva de Clara, aunque a veces se confunde con ella; su equivalente italiano es Chiara.",
+    "santoral": "Santa Ciara (Cera) de Irlanda, abadesa (fallecida en 679)"
+  },
+  "Itan": {
+    "origen": "Hebreo (variante de Eitán/Etán)",
+    "significado": "Fuerte, firme, constante (del hebreo 'eitan', איתן)",
+    "nota": "Variante moderna de Eitán/Etán (Ethan), con raíz bíblica en Etán el ezraíta, autor del Salmo 89. En Nigeria existe además un nombre tradicional Itan (ibibio/efik) que significa 'alabanza', lo que explica atribuciones dobles en algunas fuentes.",
+    "santoral": ""
+  },
+  "Osmar": {
+    "origen": "Germánico (alto alemán antiguo)",
+    "significado": "Famoso por Dios; gloria divina (de 'os', dios, y 'mar', famoso o renombrado)",
+    "nota": "Nombre compuesto germánico del tipo de Oswald u Osmundo, registrado ya en el Domesday Book (1086) y de uso frecuente en países hispanos y Brasil.",
+    "santoral": ""
+  },
+  "Kilian": {
+    "origen": "Irlandés (gaélico)",
+    "significado": "Pequeña iglesia (del gaélico 'ceall', iglesia); también se interpreta como pequeño guerrero (de 'ceallach', contienda)",
+    "nota": "Forma hispanizada de Killian/Cillian. Lo hizo célebre San Kilian, misionero irlandés del siglo VII martirizado en Wurzburgo (Franconia); muy usado también en el ámbito germánico.",
+    "santoral": "San Kilian, mártir en Wurzburgo (8 de julio)"
+  },
+  "Taylor": {
+    "origen": "Inglés (anglonormando)",
+    "significado": "Sastre; el que corta y confecciona prendas (del francés antiguo 'tailleur', cortador)",
+    "nota": "Apellido ocupacional inglés que desde el siglo XX se emplea como nombre de pila unisex, sobre todo en el mundo anglosajón; su popularidad actual se asocia a la cantante Taylor Swift.",
+    "santoral": ""
+  },
+  "Norma": {
+    "origen": "Latín",
+    "significado": "Regla, modelo, escuadra (del latín 'norma')",
+    "nota": "Se difundió a partir de la ópera 'Norma' de Vincenzo Bellini (1831); algunos autores la derivan de Norman ('hombre del norte', normando), sin consenso absoluto.",
+    "santoral": ""
+  },
+  "Elio": {
+    "origen": "Griego (Helios), vía latín",
+    "significado": "Sol (del griego 'Helios', dios griego del sol)",
+    "nota": "Nombre italiano y español derivado del griego Hēlios, que también se vincula al nomen romano Aelius. Muy conocido por el protagonista de 'Call Me by Your Name'.",
+    "santoral": "San Elio, obispo de Koper (18 de julio)"
+  },
+  "Liseth": {
+    "origen": "Hebreo, vía variantes de Elizabeth",
+    "significado": "Dios es mi juramento; consagrada a Dios (del hebreo 'Elisheva')",
+    "nota": "Adaptación fonética moderna de Lisbeth/Lizeth, abreviaturas de Elizabeth. Muy popular en América Latina, especialmente Colombia, Perú y Centroamérica.",
+    "santoral": ""
+  },
+  "Ayme": {
+    "origen": "Incierto",
+    "significado": "Amada (por su asociación con el francés Aimée); etimología no confirmada",
+    "nota": "Se vincula al francés Aimée (del verbo 'aimer', amar, y del latín 'amare'), pero algunas fuentes hispanas lo atribuyen a un origen mapuche; no hay consenso etimológico.",
+    "santoral": ""
+  },
+  "Cala": {
+    "origen": "Incierto",
+    "significado": "Incierto; se asocia al griego 'kala' (hermosa), al árabe 'qal'a' (castillo o fortaleza) o a la voz española 'cala' (ensenada costera)",
+    "nota": "Nombre breve sin etimología consensuada; también se usa como diminutivo de nombres como Carlota o Calandra. Su sonoridad evoca la cala o ensenada.",
+    "santoral": ""
+  },
+  "Andy": {
+    "origen": "Griego",
+    "significado": "Varonil, valiente",
+    "nota": "Hipocorístico de Andrés (y de Andrea en su forma femenina); en el mundo anglosajón se usa también como diminutivo de Andrew. Deriva del griego Andreas, del elemento 'aner' (hombre), con el significado de 'hombre fuerte y valiente'.",
+    "santoral": "30 de noviembre (San Andrés)"
+  },
+  "Aylan": {
+    "origen": "Incierto",
+    "significado": "Sin consenso (se le atribuye 'luz del sol' o 'halo de la luna')",
+    "nota": "Etimología discutida: algunas fuentes lo consideran kurdo y otras turco o árabe, sin consenso. Se difundió mundialmente tras la muerte del niño sirio-kurdo Aylan (Alan) Kurdi en 2015, aunque el nombre ya se usaba con anterioridad.",
+    "santoral": ""
+  },
+  "Melodi": {
+    "origen": "Griego",
+    "significado": "Melodía, canto",
+    "nota": "Variante ortográfica de Melody (inglés), derivado del griego 'melos' (canción) y 'aeidein' (cantar); equivale a Melodía en español. Nombre de creación moderna, sin santoral.",
+    "santoral": ""
+  },
+  "Pierina": {
+    "origen": "Italiano",
+    "significado": "Pequeña roca (diminutivo de Piera/Piero, variantes de Pedro)",
+    "nota": "Diminutivo femenino italiano de Piero (Pedro), del griego 'petros' (roca, piedra). Variantes: Piera, Pietra. Comparte onomástica con Pedro y con la beata italiana Pierina Morosini, virgen y mártir (1931-1957).",
+    "santoral": "6 de abril (Beata Pierina Morosini)"
+  },
+  "Sandra": {
+    "origen": "Griego",
+    "significado": "Protectora de los hombres",
+    "nota": "Forma abreviada de Alessandra (italiano) y Alejandra (español), femeninos de Alejandro, del griego 'alexein' (defender, proteger) y 'aner' (hombre). Se consolidó como nombre independiente en el siglo XX y es muy popular en Argentina.",
+    "santoral": ""
+  },
+  "Oriel": {
+    "origen": "Incierto",
+    "significado": "Sin consenso",
+    "nota": "Etimología discutida: algunas fuentes la vinculan al latín 'oriens' (naciente, oriente); otras, a un nombre germánico medieval (Aurildis, compuesto de 'fuego' y 'lucha'), o a variantes como Oriol y Uriel. No hay consenso entre las fuentes.",
+    "santoral": ""
+  },
+  "Isac": {
+    "origen": "Hebreo",
+    "significado": "Él reirá; risa",
+    "nota": "Variante ortográfica de Isaac (hebreo Yitzhak), nombre del patriarca bíblico, hijo de Abraham y Sara, cuyo nacimiento provocó la risa de su madre por la edad avanzada de sus padres.",
+    "santoral": "17 de agosto (San Isaac)"
+  },
+  "Maricel": {
+    "origen": "Compuesto (catalán)",
+    "significado": "Mar y cielo; también interpretado como unión de María con Celeste o Celia",
+    "nota": "Nombre compuesto de origen catalán ('mar i cel', mar y cielo), muy popular en Argentina. Otras fuentes lo interpretan como combinación de María y Celeste o de María y Celia. Sin santoral propio.",
+    "santoral": ""
+  },
+  "Jacinta": {
+    "origen": "Griego",
+    "significado": "Flor de jacinto",
+    "nota": "Femenino de Jacinto, del griego 'hyakinthos' (jacinto, flor). En la mitología, el joven Jacinto, amado por Apolo, dio nombre a la flor nacida de su sangre. Lo llevan Santa Jacinta Marescotti y la vidente de Fátima Jacinta Marto.",
+    "santoral": "30 de enero (Santa Jacinta Marescotti)"
+  },
+  "Kaleb": {
+    "origen": "Hebreo",
+    "significado": "Perro (fiel); leal. A veces interpretado como 'de todo corazón'",
+    "nota": "Variante ortográfica de Caleb (hebreo Kalev). En la Biblia, Caleb fue uno de los doce espías enviados a Canaán, fiel a Dios junto a Josué. El término hebreo 'kelev' (perro) simbolizaba la fidelidad. Sin santoral en el calendario católico.",
+    "santoral": ""
+  },
+  "Jhon": {
+    "origen": "Hebreo",
+    "significado": "Dios es misericordioso o Dios ha mostrado su favor (de Yohanan, raíz de Juan/John).",
+    "nota": "Grafía no canónica de John (inglés), equivalente a Juan. Se pronuncia como voz monosílaba, por lo que no lleva tilde según la norma del español.",
+    "santoral": "Santo de Juan: San Juan Bautista (24 de junio)"
+  },
+  "Elsa": {
+    "origen": "Hebreo (a través del alemán)",
+    "significado": "Dios es mi juramento (de Elisheba, raíz de Isabel/Elisabeth).",
+    "nota": "Hipocorístico alemán de Elisabeth (Isabel) que se consolidó como nombre independiente; sin tilde por ser palabra llana terminada en vocal.",
+    "santoral": ""
+  },
+  "Rihanna": {
+    "origen": "Incierto",
+    "significado": "Sin significado consensuado; suele asociarse al nombre árabe Riham ('brisa fragante') o al celta Rhiannon ('gran reina').",
+    "nota": "Sin etimología consensuada: no hay acuerdo entre las hipótesis árabe y celta. Popularizado mundialmente por la cantante barbadense Rihanna; no lleva tilde (llana terminada en vocal).",
+    "santoral": ""
+  },
+  "Deian": {
+    "origen": "Incierto",
+    "significado": "Sin significado consensuado; posiblemente ligado a Deianira ('que destruye al esposo', en griego) o a Deyan, forma eslava.",
+    "nota": "Grafía escasamente documentada. No hay consenso etimológico: no se puede adjudicar un origen único; se documenta en zonas balcánicas y de habla hispana. No lleva tilde (llana terminada en n: según la norma le correspondería 'Déian', pero el uso la registra sin tilde).",
+    "santoral": ""
+  },
+  "Angie": {
+    "origen": "Griego",
+    "significado": "Mensajera (de ángelos, 'mensajero', raíz de Ángela).",
+    "nota": "Hipocorístico inglés de Ángela/Angel, difundido en el mundo hispano desde fines del siglo XX; también se usa como nombre independiente. Lleva la 'g' seguida de 'i' con sonido fricativo; no lleva tilde (llana terminada en vocal).",
+    "santoral": "Santa Ángela de Mérici (27 de enero)"
+  },
+  "Flor": {
+    "origen": "Latín",
+    "significado": "Flor (del latín flos, floris).",
+    "nota": "Nombre corto de uso frecuente en español, también como acortamiento de nombres compuestos (Flor de María, Florinda). Voz aguda monosílaba, sin tilde.",
+    "santoral": "Santa Flora (24 de noviembre)"
+  },
+  "Griselda": {
+    "origen": "Germánico",
+    "significado": "Doncella de la batalla (de grisja, 'gris' o 'joven', y hild, 'batalla').",
+    "nota": "Etimología debatida: la mayoría la remite al germánico Griseldis, aunque algunos la vinculan al griego Chrysomelissa ('miel dorada'). Difundida por el cuento de la paciente Griselda (Boccaccio y Cervantes). No lleva tilde (llana terminada en vocal).",
+    "santoral": ""
+  },
+  "Zara": {
+    "origen": "Árabe",
+    "significado": "Flor brillante o resplandeciente (de Zahra), raíz compartida con Azahar.",
+    "nota": "Orígenes múltiples: árabe (Zahra, 'flor'), hebreo (variante de Sara) y eslavo (Zara, forma de 'princesa'). El uso hispano actual proviene sobre todo de la forma árabe y de la marca de moda Zara. No lleva tilde (llana terminada en vocal).",
+    "santoral": ""
+  },
+  "Johann": {
+    "origen": "Hebreo (a través del alemán)",
+    "significado": "Dios es misericordioso o Dios ha mostrado su favor (de Yohanan, raíz de Juan).",
+    "nota": "Forma alemana de Juan, asociada sobre todo a Johann Sebastian Bach y a la tradición germánica de nombres compuestos. Se pronuncia en alemán con 'j' aspirada /yoján/; en español la grafía con 'h' la hace llana terminada en n, por lo que no lleva tilde.",
+    "santoral": "Santo de Juan: San Juan Bautista (24 de junio)"
+  },
+  "Amaru": {
+    "origen": "Quechua",
+    "significado": "Serpiente sagrada (en el mundo andino, ligada a la tierra y a la autoridad; 'Túpac Amaru').",
+    "nota": "De origen andino (quechua/aimara), documentado desde la época incaica (el Inca Túpac Amaru I y el caudillo Túpac Amaru II). Usado desde fines del siglo XX también como nombre propio en Argentina. No lleva tilde (llana terminada en vocal).",
+    "santoral": ""
   }
 }
